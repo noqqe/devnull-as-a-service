@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="{{ entry.lang if entry else conf.lang }}">
+<head>
+  {% block head -%}
+  <meta charset="utf-8" />
+  <title>{% block title %}{% endblock %}</title>
+  <link media="all" href="{{ env.path + '/style.css' }}" rel="stylesheet" />
+  <link href="/favicon.ico" rel="shortcut icon" />
+    {% if 'sitemap' in env.views -%}
+        <link href="{{ env.views.sitemap.path }}" type="application/xml" rel="sitemap" title="Sitemap">
+    {%- endif%}
+  <link href="{{ env.path + '/' }}" rel="home start" />
+  <link href="{{ env.path + '/atom/' }}" type="application/atom+xml" rel="alternate" title="Atom Feed" />
+  <link href="{{ env.path + '/rss/' }}" type="application/rss+xml" rel="alternate" title="RSS Feed" />
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  {%- endblock %}
+</head>
+<body>
+  <header>
+    <h1><a href="{{ env.path + '/' }}" rel="home start" class="blogtitle">{{ conf.sitename }}</a></h1>
+    <nav>
+      <ul>
+        <li><a href="{{ env.path + '/' }}" rel="home start">blog</a></li>
+        <li><a href="{{ env.path + '/atom/' }}" rel="alternate">atom</a></li>
+        <li><a href="{{ env.path + '/rss/' }}" rel="alternate">rss</a></li>
+        <li><a href="{{ env.path + '/articles/' }}" rel="contents">articles</a></li>
+      </ul>
+    </nav>
+  </header>
+  {%- block content -%}
+  {%- endblock -%}
+  <footer>
+    {% block footer %}
+    <p>written by <a href="mailto:{{ conf.email }}">{{ conf.author }}</a></p>
+    <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/de/" rel="copyright license">
+        <img src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" alt="by-nc-sa" />
+    </a>
+    {% endblock %}
+  </footer>
+</body>
+</html>

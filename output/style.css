@@ -1,0 +1,188 @@
+article, aside, figure, footer, header, hgroup, nav, section {
+  display: block; }
+body {
+    background-color: white;
+    margin: 0 auto;
+    width: 800px;
+}
+body > header {
+    padding: 10px;
+    font-family: Palatino, "Times New Roman", serif;
+    text-decoration: none;
+    text-align: center;
+}
+body > header h1 { padding-top: 1.5em }
+body > header h1 a {
+    color: black;
+    font-size: 0.8em;
+    text-decoration: none;
+}
+body > header h1 a:hover { text-shadow: #888888 0px 0px 1px }
+body > header h1 a:visited { color: black }
+body > header ul { padding: 1em }
+body > header ul li {
+    display: inline-block;
+    margin: 0 2em 0 2em;
+}
+body > header ul a {
+    color: black;
+    text-decoration: none;
+    font-family: "Palatino", serif;
+}
+body > header ul a:hover { text-shadow: #888888 0px 0px 1px }
+body > article {
+    padding: 1.6em;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    text-align: justify;
+    font: 0.95em "Palatino", serif;
+}
+body > article > header {
+    margin-left: -1.1em;
+    margin-bottom: -0.7em;
+}
+body > article > header h1 a {
+    color: black;
+    font: bold medium "Palatino", serif;
+    text-decoration: none;
+}
+body > article > header h1 a:hover { text-shadow: #888888 0px 0px 1px }
+body > article > header h1 a:visited { color: black }
+body > article > header time {
+    font: 0.8em "Georgia";
+    float: right;
+}
+body > article h2 { font: bold 1.05em "Palatino", serif }
+body > article h3,
+body > article h4 { font: bold 1em "Palatino", serif }
+body > article a {
+    text-decoration: none;
+    color: #cc0000;
+}
+body > article a:visited { color: #aa0000 }
+body > article a:hover {
+    color: #ff190d;
+    text-shadow: #ff6666 0px 0px 1px;
+}
+body > article p { line-height: 1.3em }
+body > article dl { padding-left: 16px }
+body > article dl dt {
+    font-weight: bold;
+    color: #444444;
+    padding: 6px 92px 3px 0;
+    padding-top: 9px;
+}
+body > article ul {
+    padding: 0 0 10px 40px;
+    list-style-type: disc;
+}
+body > article li { padding-top: 3px }
+body > article pre,
+body > article code {
+    font-family: Bitstream Vera Sans Mono, monospace;
+    font-size: 13px;
+}
+body > article blockquote {
+    border-left: 3pt solid #aaaaaa;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: 1em;
+    font: italic small Verdana, Times, sans-serif;
+    color: #222222;
+}
+body > article blockquote em { font-weight: bold }
+body > article img {
+    max-width: 700px;
+    margin: 0em 20px;
+    box-shadow: 0px 0px 4px black;
+}
+body > article .amp {
+    color: #666666;
+    font-family: "Warnock Pro", "Goudy Old Style", "Palatino", "Book Antiqua", serif;
+    font-size: small;
+    font-style: italic;
+}
+body > article .caps { font-size: 0.92em }
+body > article .highlight {
+    border: 1px solid #cccccc;
+    padding-left: 1em;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background: none repeat scroll 0 0 #f0f0f0;
+    overflow: auto;
+}
+body > article > footer p {
+    margin: 0 0 0 0;
+    font-style: italic;
+}
+body > article > footer a {
+    color: #111111;
+    font-family: Palatino, "times new roman", serif;
+    font-weight: bold;
+    font-size: 0.95em;
+    text-decoration: none;
+}
+body > article > footer a:hover {
+    color: #111111;
+    text-shadow: #aaaaaa 0px 0px 1px;
+}
+body > article > footer a:visited { color: black }
+body > article .page {
+    margin-top: -20px;
+    font: bold medium Palatino, "Times New Roman", serif;
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px dotted black;
+}
+body > .page {
+  margin-top: -20px;
+  font: bold medium Palatino, "Times New Roman", serif;
+  color: black;
+  text-decoration: none;
+  border-bottom: 1px dotted black; }
+  body > .page:hover {
+    text-shadow: #aaaaaa 0px 0px 1px; }
+
+#arc { border-collapse: collapse }
+#arc th,
+#arc td {
+    padding-top: 0.4em;
+    list-style: none;
+    margin: 0;
+}
+#arc th {
+    text-align: right;
+    padding: 0.4em 1.75em 0 0;
+    vertical-align: baseline;
+}
+body > footer {
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    font: medium Palatino, "Times New Roman", serif;
+}
+body > footer a {
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 1px dotted black;
+    color: #cc0000;
+}
+body > footer a:hover {
+    text-shadow: #ee6688 0px 0px 1px;
+    color: #ff190d;
+}
+.comments a { color: black }
+.comments a:hover {
+    color: #111111;
+    text-shadow: #aaaaaa 0px 0px 1px;
+}
+.comments a:visited { color: black }
+object[type="application/x-shockwave-flash"], iframe.video {
+    box-shadow: 0px 0px 12px #777777;
+    margin-left: 15px;
+    text-align: center;
+}
+#dsq-content .dsq-avatar { margin-left: -18px; } /* disqus fix */
+.shadow { box-shadow: 0px 0px 4px black }
+.floatright { float: right }
+.floatleft { float: left }

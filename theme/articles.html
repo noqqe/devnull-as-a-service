@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block title %}{{ conf.sitename }} – Artikelübersicht{% endblock %}
+
+{% block content %}
+<article>
+    <table id="arc">
+    {% for year in env.globals.entrylist | archivesfor %}
+        {% for month in year %}
+            <tr>
+            {% if loop.first %}
+                <th>{{ year ~ ' ' ~ month.full }}</th>
+            {% else %}
+                <th>{{ month.full }}</th>
+            {% endif %}
+            <td></td>
+            </tr>
+
+            {% for entry in month.items %}
+                <tr>
+                    <th>{{ entry.date.day }}</th>
+                    <td><a href="{{ env.path + entry.permalink }}">{{ entry.title | e }}</a></td>
+                </tr>
+            {% endfor %}
+        {% endfor %}
+    {% endfor %}
+    </table>
+</article>
+{% endblock %}

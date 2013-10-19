@@ -1,0 +1,55 @@
+<article>
+    <header>
+        <time datetime="{{ entry.date.strftime("%Y-%m-%d") }}">{{ entry.date.strftime("%d.%m.%Y, %H:%M") }}</time>
+        <h1>
+            <a href="{{ env.path + entry.permalink }}" rel="bookmark canonical">{{ entry.title }}</a>
+        </h1>
+    </header>
+    {{ entry.content }}
+    <footer>
+        {% if conf.disqus_shortname and env.type == 'index' %}
+            <a class="floatright" href="{{ conf.www_root + entry.permalink }}#disqus_thread">Comment</a>
+        {% endif %}
+        {% if 'tag' in env.views and entry.tags %}
+            <p>tagged as
+                {% for link in entry.tags | tagify -%}
+                    <a href="{{ env.path + link.href }}" rel="tag">{{ link.title }}</a>
+                    {%- if loop.revindex > 2 -%}
+                    ,
+                    {%- elif loop.revindex == 2 %}
+                    and
+                    {% endif %}
+                {% endfor %}
+            </p>
+        {% elif not entry.draft %}
+            <p>untagged</p>
+        {% endif %}
+    </footer>
+    <div class="comments">
+        {%- if conf.disqus_shortname and env.type == 'entry' and not entry.draft %}
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            var disqus_shortname = '{{ conf.disqus_shortname }}'; // required: replace example with your forum shortname
+
+            // The following are highly recommended additional parameters. Remove the slashes in front to use.
+            var disqus_identifier = "{{ conf.www_root + entry.permalink }}";
+            var disqus_url = "{{ conf.www_root + entry.permalink }}";
+
+            if (window.location.hostname != "localhost") {
+                /* * * DON'T EDIT BELOW THIS LINE * * */
+                (function() {
+                    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                    dsq.src = '{{ env.protocol }}://' + disqus_shortname + '.disqus.com/embed.js';
+                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                })();
+            }
+        </script>
+        <noscript>
+            <p>Please enable JavaScript to view the <a href="{{ env.protocol }}://disqus.com/?ref_noscript">comments powered by Disqus.</a></p>
+        </noscript>
+        <a href="{{ env.protocol }}://disqus.com" class="dsq-brlink">
+            blog comments powered by <span class="logo-disqus">Disqus</span>
+        </a>
+        {% endif -%}
+    </div>
+</article>

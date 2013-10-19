@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+
+{% block title %}
+    {%- if entry is defined -%}
+      {{ entry.title }}
+    {%- else -%}
+      {{ conf.sitename }}
+    {%- endif -%}
+{% endblock %}
+
+{% block head %}
+    {{- super() }}
+    {%- if entry is defined %}
+    <meta name="description" content="{{ entry.description | e }}" />
+    <meta name="keywords" content="{{ entry.tags | join(', ') }}" />
+    {%- endif -%}
+{% endblock %}
+
+{% block content %}
+    {% for entry in env.entrylist %}
+        {% include 'entry.html' %}
+    {% endfor %}
+    {% if env.prev is not none %}
+        <a href="{{ env.path ~ env.prev ~ '/' }}" class="page floatright">
+        {{ env.prev.title }} &raquo;
+        </a>
+    {% endif %}
+    {% if env.next is not none %}
+        <a href="{{ env.path ~ env.next ~ '/' }}" class="page floatleft">
+        &laquo; {{ env.next.title }}
+        </a>
+    {%- endif  %}
+{% endblock %}
+
+{% block footer %}
+    {{ super() }}
+    {% if conf.disqus_shortname and env.type == 'index' %}
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            var disqus_shortname = '{{ conf.disqus_shortname }}'; // required: replace example with your forum shortname
+            if (window.location.hostname != 'localhost') {
+                 /* * * DON'T EDIT BELOW THIS LINE * * */
+                (function () {
+                    var s = document.createElement('script'); s.async = true;
+                    s.type = 'text/javascript';
+                    s.src = '{{ env.protocol }}://' + disqus_shortname + '.disqus.com/count.js';
+                    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);}());
+            }
+        </script>
+        {% endif %}
+{% endblock %}
