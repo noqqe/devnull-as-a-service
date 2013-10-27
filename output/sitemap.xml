@@ -1,39 +1,49 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://example.com/tag/die-verwandlung/</loc>
-    <lastmod>2013-10-19</lastmod>
+    <loc>http://example.com/tag/dev-null/</loc>
+    <lastmod>2013-10-27</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://example.com/2012/die-verwandlung/</loc>
-    <lastmod>2013-10-19</lastmod>
+    <loc>http://example.com/tag/enterprise/</loc>
+    <lastmod>2013-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://example.com/tag/business/</loc>
+    <lastmod>2013-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://example.com/tag/trash/</loc>
+    <lastmod>2013-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://example.com/2013/home/</loc>
+    <lastmod>2013-10-27</lastmod>
     <changefreq>never</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://example.com/rss/</loc>
-    <lastmod>2013-10-19</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>http://example.com/tag/franz-kafka/</loc>
-    <lastmod>2013-10-19</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
     <loc>http://example.com/</loc>
-    <lastmod>2013-10-19</lastmod>
+    <lastmod>2013-10-27</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>http://example.com/atom/</loc>
-    <lastmod>2013-10-19</lastmod>
+    <lastmod>2013-10-27</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>http://example.com/articles/</loc>
-    <lastmod>2013-10-19</lastmod>
+    <lastmod>2013-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://example.com/rss/</loc>
+    <lastmod>2013-10-27</lastmod>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>
