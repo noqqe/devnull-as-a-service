@@ -4,8 +4,6 @@ date: 20.10.2013, 13:37
 type: page
 ---
 
-# Contact
-
 Florian Baumann 
 
 mail: info@devnull-as-a-service.com
