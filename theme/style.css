@@ -116,15 +116,15 @@ body > article > footer p {
     font-style: italic;
 }
 body > article > footer a {
-    color: #111111;
+    color: black;
     font-family: Palatino, "times new roman", serif;
     font-weight: bold;
     font-size: 0.95em;
     text-decoration: none;
 }
 body > article > footer a:hover {
-    color: #111111;
-    text-shadow: #aaaaaa 0px 0px 1px;
+    color: black;
+    text-shadow: #a5cc52 0px 0px 1px;
 }
 body > article > footer a:visited { color: black }
 body > article .page {
@@ -141,7 +141,7 @@ body > .page {
   text-decoration: none;
   border-bottom: 1px dotted black; }
   body > .page:hover {
-    text-shadow: #aaaaaa 0px 0px 1px; }
+    text-shadow: #a5cc52 0px 0px 1px; }
 
 #arc { border-collapse: collapse }
 #arc th,
@@ -165,11 +165,11 @@ body > footer a {
     font-weight: bold;
     text-decoration: none;
     border-bottom: 1px dotted black;
-    color: #cc0000;
+    color: black;
 }
 body > footer a:hover {
-    text-shadow: #ee6688 0px 0px 1px;
-    color: #ff190d;
+    text-shadow: #a5cc52 0px 0px 1px;
+    color: black;
 }
 .comments a { color: black }
 .comments a:hover {
