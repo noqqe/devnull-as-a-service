@@ -1,0 +1,18 @@
+---
+title: Contact
+date: 20.10.2013, 13:37
+type: page
+---
+
+## Contact
+
+Florian Baumann
+mail: flo@noqqe.de
+blog: http://noqqe.de
+
+
+## Upcoming
+
+/dev/random as a Service: Do you think every random-number-generator is broken? Well, we do!
+Simply trust us and use our numbers as your online crypto source!
+
