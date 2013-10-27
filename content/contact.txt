@@ -7,7 +7,9 @@ type: page
 # Contact
 
 Florian Baumann 
+
 mail: info@devnull-as-a-service.com
+
 blog: [noqqe.de](http://noqqe.de)
 
 # Upcoming
