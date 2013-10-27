@@ -14,7 +14,7 @@ body > header {
 body > header h1 { padding-top: 1.5em }
 body > header h1 a {
     color: black;
-    font-size: 0.8em;
+    font-size: 1.4em;
     text-decoration: none;
 }
 body > header h1 a:hover { text-shadow: #888888 0px 0px 1px }
@@ -31,7 +31,7 @@ body > header ul a {
 }
 body > header ul a:hover { text-shadow: #888888 0px 0px 1px }
 body > article {
-    padding: 1.6em;
+    padding: 1.2em;
     margin-top: 64px;
     margin-bottom: 64px;
     text-align: justify;
