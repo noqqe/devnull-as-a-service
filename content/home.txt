@@ -4,4 +4,4 @@ date: 27.10.2013, 11:27
 tags: [/dev/null, trash, enterprise, business]
 ---
 
-Everything is a service! 
+Bringing another one of your favorite services to the cloud. Everything is a service! 

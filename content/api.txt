@@ -1,0 +1,12 @@
+---
+title: Code
+date: 27.10.2013, 11:27
+tags: [/dev/null, trash, enterprise, business]
+---
+
+Your developers will love our simple and well documented API.
+
+    $ curl -X POST http://devnull-as-a-service.com/dev/null 
+
+Just post your data in there and we will take care and throw it away like 
+its 1984
