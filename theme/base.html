@@ -12,6 +12,9 @@
   <link href="{{ env.path + '/' }}" rel="home start" />
   <link href="{{ env.path + '/atom/' }}" type="application/atom+xml" rel="alternate" title="Atom Feed" />
   <link href="{{ env.path + '/rss/' }}" type="application/rss+xml" rel="alternate" title="RSS Feed" />
+  <link href="http://fonts.googleapis.com/css?family=Ropa+Sans&subset=latin,latin-ext" rel="stylesheet" type="text/css"> 
+  <link href='http://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
   <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
@@ -19,7 +22,7 @@
 </head>
 <body>
   <header>
-    <h1><a href="{{ env.path + '/' }}" rel="home start" class="blogtitle">{{ conf.sitename }}</a></h1>
+  <h1><a href="{{ env.path + '/' }}" rel="home start" class="blogtitle"><img src="{{ env.path + '/img/devnull.png'}}"/>{{ conf.sitename }}</a></h1>
     <nav>
       <ul>
         <li><a href="{{ env.path + '/' }}" rel="home start">blog</a></li>

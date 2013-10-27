@@ -7,7 +7,7 @@ body {
 }
 body > header {
     padding: 10px;
-    font-family: Palatino, "Times New Roman", serif;
+    font-family: 'Source Sans Pro', sans-serif;
     text-decoration: none;
     text-align: center;
 }
@@ -27,7 +27,7 @@ body > header ul li {
 body > header ul a {
     color: black;
     text-decoration: none;
-    font-family: "Palatino", serif;
+    font-family: "Ropa Sans", sans-serif;
 }
 body > header ul a:hover { text-shadow: #888888 0px 0px 1px }
 body > article {
@@ -35,7 +35,7 @@ body > article {
     margin-top: 64px;
     margin-bottom: 64px;
     text-align: justify;
-    font: 0.95em "Palatino", serif;
+    font: 0.95em "Ropa Sans", sans-serif;
 }
 body > article > header {
     margin-left: -1.1em;
@@ -43,7 +43,7 @@ body > article > header {
 }
 body > article > header h1 a {
     color: black;
-    font: bold medium "Palatino", serif;
+    font: bold medium "Ropa Sans", sans-serif;
     text-decoration: none;
 }
 body > article > header h1 a:hover { text-shadow: #888888 0px 0px 1px }
@@ -52,9 +52,9 @@ body > article > header time {
     font: 0.8em "Georgia";
     float: right;
 }
-body > article h2 { font: bold 1.05em "Palatino", serif }
+body > article h2 { font: bold 1.05em "Ropa Sans", sans-serif }
 body > article h3,
-body > article h4 { font: bold 1em "Palatino", serif }
+body > article h4 { font: bold 1em "Ropa Sans", sans-serif }
 body > article a {
     text-decoration: none;
     color: #cc0000;
