@@ -79,7 +79,7 @@ body > article ul {
 body > article li { padding-top: 3px }
 body > article pre,
 body > article code {
-    font-family: Bitstream Vera Sans Mono, monospace;
+    font-family: "Droid Sans Mono", sans-serif; 
     font-size: 13px;
 }
 body > article blockquote {
