@@ -363,3 +363,47 @@ object[type="application/x-shockwave-flash"], iframe.video {
     position:relative;
     top:1px;
 }
+
+.nav5 {
+    -moz-box-shadow:inset 0px 1px 0px 0px #3498DB;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #3498DB;
+    box-shadow:inset 0px 1px 0px 0px #3498DB;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3498DB), color-stop(1, #3498DB) );
+    background:-moz-linear-gradient( center top, #3498DB 5%, #3498DB 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3498DB', endColorstr='#3498DB');
+    background-color:#3498DB;
+    -webkit-border-top-left-radius:5px;
+    -moz-border-radius-topleft:5px;
+    border-top-left-radius:5px;
+    -webkit-border-top-right-radius:5px;
+    -moz-border-radius-topright:5px;
+    border-top-right-radius:5px;
+    -webkit-border-bottom-right-radius:5px;
+    -moz-border-radius-bottomright:5px;
+    border-bottom-right-radius:5px;
+    -webkit-border-bottom-left-radius:5px;
+    -moz-border-radius-bottomleft:5px;
+    border-bottom-left-radius:5px;
+    text-indent:0px;
+    display:inline-block;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    font-style:normal;
+    height:25px;
+    line-height:25px;
+    width:85px;
+    text-decoration:none;
+    text-align:center;
+    text-shadow:1px 1px 0px #3498DB;
+}
+.nav5:hover {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3498DB), color-stop(1, #3498DB) );
+    background:-moz-linear-gradient( center top, #3498DB 5%, #3498DB 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3498DB', endColorstr='#3498DB');
+    background-color:#3498DB;
+}.nav5:active {
+    position:relative;
+    top:1px;
+}

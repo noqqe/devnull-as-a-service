@@ -6,6 +6,17 @@ type: page
 tags: [/dev/null, trash, enterprise, business, Features]
 ---
 
+## Business Applications
+
 * Dropbox Support
 * We support BigData!
-* Run huge MapReduce jobs on the data you wont see anymore!
+* Run huge Map-Reduce jobs on the data you wont see anymore!
+* Share your deletions on Twitter & Facebook!
+
+## Privacy 
+
+We know that everyone cares about thier data these days. We promise 
+we wont let anyone have a look at your data[1]. 
+
+
+[1]: Anyone excluding the following companies and departments. NSA, KGB, GSG9
