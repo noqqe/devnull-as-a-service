@@ -18,9 +18,6 @@ VIEWS = {
     '/tag/:name/': {'filters': 'summarize', 'view':'tag',
                     'pagination': '/tag/:name/:num/'},
 
-    '/atom/': {'filters': ['h2', 'nohyphenate'], 'view': 'atom'},
-    '/rss/': {'filters': ['h2', 'nohyphenate'], 'view': 'rss'},
-
     # # per tag Atom or RSS feed. Just uncomment to generate them.
     # '/tag/:name/atom/': {'filters': ['h2', 'nohyphenate'], 'view': 'atompertag'},
     # '/tag/:name/rss/': {'filters': ['h2', 'nohyphenate'], 'view': 'rsspertag'},
@@ -29,6 +26,10 @@ VIEWS = {
 
     '/sitemap.xml': {'view': 'sitemap'},
 
+    '/features/': {
+      'view': 'page',
+          'template': 'main.html'  # default, includes entry.html
+    }
     # # Here are some more examples
 
     # # '/:slug/' is a slugified url of your static page's title
