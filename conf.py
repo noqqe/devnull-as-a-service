@@ -2,11 +2,11 @@
 # This is your configuration file.  Please write valid python!
 # See http://posativ.org/acrylamid/conf.py.html
 
-SITENAME = 'A descriptive blog title'
-WWW_ROOT = 'http://example.com/'
+SITENAME = '/dev/null as a Service'
+WWW_ROOT = 'http://10.10.0.27'
 
-AUTHOR = 'Anonymous'
-EMAIL = 'mail@example.com'
+AUTHOR = 'Florian Baumann'
+EMAIL = 'flo@noqqe.de'
 
 FILTERS = ['markdown+codehilite(css_class=highlight)', 'hyphenate', 'h1']
 VIEWS = {
