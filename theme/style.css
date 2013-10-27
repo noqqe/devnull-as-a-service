@@ -407,3 +407,34 @@ object[type="application/x-shockwave-flash"], iframe.video {
     position:relative;
     top:1px;
 }
+
+#hor-minimalist-b
+{
+	font-family: "Ropa Sans", Sans-Serif;
+	font-size: 1.4em;
+	background: #fff;
+	margin-left: auto;
+	margin-right: auto;
+	width: 640px;
+	border-collapse: collapse;
+	text-align: left;
+}
+#hor-minimalist-b th
+{
+	font-size: 1.2em;
+	font-weight: normal;
+	color: #000;
+	padding: 14px 12px;
+	border-bottom: 4px solid #fff;
+}
+#hor-minimalist-b td
+{
+	border-bottom: 1px solid #ccc;
+	color: #E67E22;
+	padding: 8px 10px;
+}
+#hor-minimalist-b tbody tr:hover td
+{
+	color: #E74C3C;
+}
+

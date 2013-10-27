@@ -6,48 +6,41 @@ tags: [/dev/null, trash, enterprise, business]
 ---
 
 
-<link media="all" href="../../tables/style.css" rel="stylesheet" />
+Simply contact one of our sales guys to get in touch!
 <table id="hor-minimalist-b" summary="Employee Pay Sheet">
 <thead>
 <tr>
-<th scope="col">Employee</th>
-<th scope="col">Salary</th>
-<th scope="col">Bonus</th>
-<th scope="col">Supervisor</th>
+<th scope="col">Plan</th>
+<th scope="col">Traffic</th>
+<th scope="col">Features</th>
+<th scope="col">Price</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Stephen C. Cox</td>
-<td>$300</td>
-<td>$50</td>
-<td>Bob</td>
-</tr>
-<tr>
-<td>Josephin Tan</td>
-<td>$150</td>
+<td>Personal</td>
+<td>25GB/Month</td>
 <td>-</td>
-<td>Annie</td>
+<td>$0</td>
 </tr>
 <tr>
-<td>Joyce Ming</td>
-<td>$200</td>
-<td>$35</td>
-<td>Andy</td>
-</tr>
-<tr>
-<td>James A. Pentel</td>
-<td>$175</td>
+<td>Economy</td>
+<td>100GB/Month</td>
+<td>SSL Encryption</td>
 <td>$25</td>
-<td>Annie</td>
+</tr>
+<tr>
+<td>Business</td>
+<td>500GB</td>
+<td>dedicated trashbin</td>
+<td>$200</td>
+</tr>
+<tr>
+<td>Enterprise</td>
+<td>unlimited data!</td>
+<td>High availability devnull cluster</td>
+<td>$500</td>
 </tr>
 </tbody>
 </table>
 
-Free
-
-Economy
-
-Business
-
-Enterprise
