@@ -5,19 +5,33 @@ type: page
 tags: [/dev/null, trash, enterprise, business]
 ---
 
-## /dev/null as a Service
+# /dev/null as a Service
 
-Your developers will love our simple and well documented API.
+Your developers will love our simple and well documented API. 
+Just post your data in there we will take care about its deletion over
+our Heavily Distributed BigData Cloud Cluster Setup!
 
-    $ curl -X POST http://devnull-as-a-service.com/dev/null 
+    $ curl -d @invoice.pdf -X POST http://devnull-as-a-service.com/dev/null 
+    
+or if you are interested in some more informations about the ongoing deletion use
 
-Just post your data in there and we will take care and throw it away like 
-its 1984
+    $ curl -v -d @photos-of-yourself.zip -X POST http://devnull-as-a-service.com/dev/null 
 
-## Self Hosted Enterprise Appliance!
+If you're a `wget` Windows multiplatform lover you could use
 
+    $ wget -O- -v --post-file=backups.tar.gz http://devnull-as-a-service.com/dev/null
 
-for only $5000 per year you get our enterprise self hosted application
+# Self Hosted Enterprise Appliance!
 
-  $ cat nginx.conf
-    451 not implemented yet version
+For only $5000 per year you get our enterprise self hosted enterprise appliance.
+Okay lets be honest, it's basicly a crappy Pentium4 Box with Debian and nginx installed. 
+
+The configuration looks pretty much like
+
+    location /dev/null {
+        if ($request_method = POST ) {
+          return 200;
+        }
+    }
+
+But we think your data is worth it. 

@@ -4,18 +4,18 @@ date: 20.10.2013, 13:37
 type: page
 ---
 
-## Contact
+# Contact
 
 Florian Baumann 
 mail: info@devnull-as-a-service.com
 blog: [noqqe.de](http://noqqe.de)
 
-## Upcoming
+# Upcoming
 
 /dev/random as a Service: Do you think every random-number-generator is broken? Well, we do!
 Simply trust us and use our numbers as your only seeding source!
 
-## Contribute
+# Contribute
 
 /dev/null as a Service is a community project. Simply fork it on 
 [Github](https://github.com/noqqe/devnull-as-a-service)

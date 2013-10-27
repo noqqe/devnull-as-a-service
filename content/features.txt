@@ -7,7 +7,7 @@ tags: [/dev/null, trash, enterprise, business, Features]
 ---
 
 
-## Whats up? 
+# Whats up? 
 
 So we heard you're a sales guy without any technical knowledge? Lets quote 
 wikipedia.
@@ -18,14 +18,14 @@ wikipedia.
 > EOF immediately.
 
 
-## Our features
+# Our features
 
 * Erase all of your data savly from everywhere in the world!
 * We support BigData!
 * Run huge Map-Reduce jobs on the data you wont see anymore!
 * Share your lost content and your feelings about it on Twitter & Facebook!
 
-## Privacy 
+# Privacy 
 
 We know that everyone cares about thier data these days. We promise 
 we wont let anyone have a look at your data[1].
