@@ -18,11 +18,11 @@ wikipedia.
 > EOF immediately.
 
 
-# Our features
+# Our Features
 
 * Erase all of your data savly from everywhere in the world!
 * We support BigData!
-* 95,66% guaranteed uptime (we need some sleep, too)
+* 85,66% guaranteed uptime (we need some sleep, too)
 * Run huge Map-Reduce jobs on the data you wont see anymore!
 * Share your lost content and your feelings about it on Twitter & Facebook!
 
