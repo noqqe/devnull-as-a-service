@@ -23,13 +23,11 @@ Just because of course and everything is should be a managed-service!
 
 We're a young and dynamic team of data-scientics failed being employed
 at the real market. Our Experience in losing data and throwing files
-away is more than amazing! Over the years we managed to lose many files
-at home or work. Pictures of our holidays, important invoices, login details... 
-its all gone. So we started to make a business out of that. 
-
+away is more than amazing! Over the years we managed to get rid of so many important data
+at home and even at work. Pictures of our holidays, important invoices, login details... 
+its all gone. So we started to make a business out of what we're good at. 
 
 ## Success Stories
 
 > hank - ex wife photos and im happy now!
-
 > company - anwalt ...aehm.. not so good... good to have daas 
