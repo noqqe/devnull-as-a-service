@@ -5,7 +5,7 @@ type: page
 tags: [/dev/null, trash, enterprise, business]
 ---
 
-## Hosted 
+## /dev/null as a Service
 
 Your developers will love our simple and well documented API.
 
@@ -14,7 +14,7 @@ Your developers will love our simple and well documented API.
 Just post your data in there and we will take care and throw it away like 
 its 1984
 
-## Self Hosted
+## Self Hosted Enterprise Appliance!
 
 
 for only $5000 per year you get our enterprise self hosted application

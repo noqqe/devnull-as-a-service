@@ -5,22 +5,23 @@ type: page
 tags: [/dev/null, trash, enterprise, business, home, bigdata, deepdata, trash, mess]
 ---
 
-In modern days everything is a service. You create [content](http://docs.google.com), deploy machines,
-but is happening to your trash? This is why we're bringing another of your favorite applications to the cloud.
+In modern days everything is a service. You create
+[content](http://docs.google.com), deploy machines, but is happening
+to your trash? This is why we're bringing another of your favorite
+applications to the cloud.
 
-Tired of freeing inodes on your local machine? Register today, it's free! Plans for whole companies 
-available as well!
+IAAS, SAAS, PAAS, holy fuckshit, we call our baby DAAS.
 
-Everything is a service. 
+Dont get rid of your data yourself anymore. Tired of freeing inodes on
+your local machine? Register today, it's free! Plans for whole companies
+available as well.
 
-## Who we are 
+Just because of course and everything is a service!
 
-We're a young and dynamic team of data-scientics. Our Experience in losing data and throwing files away
-is more than amazing. 
+## Who we are
 
-## Community
-
-Hank:
-
-> I was just bored of deleting my data on my local machine. Instead of setting up my own machine I
-> discovered 
+We're a young and dynamic team of data-scientics failed being employed
+at the real market. Our Experience in losing data and throwing files
+away is more than amazing! Over the years we managed to lose many files
+at home or work. Pictures of our holidays, important invoices, login details... 
+its all gone. So we started to make a business out of that. 
