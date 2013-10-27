@@ -31,14 +31,14 @@ Simply contact one of our sales guys to get in touch!
 </tr>
 <tr>
 <td>Business</td>
-<td>500GB</td>
-<td>dedicated trashbin</td>
+<td>500GB/Month</td>
+<td>Dedicated Trashbin</td>
 <td>$200</td>
 </tr>
 <tr>
 <td>Enterprise</td>
-<td>unlimited data!</td>
-<td>High availability devnull cluster</td>
+<td>UNLIMITED!</td>
+<td>High Availability devnull Cluster</td>
 <td>$500</td>
 </tr>
 </tbody>

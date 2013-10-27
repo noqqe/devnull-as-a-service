@@ -11,7 +11,9 @@ deploy [computers](https://aws.amazon.com/ec2/), but what's happening
 to your trash? That's why we're launching another of your favorite
 applications to the cloud.
 
-IAAS, SAAS, PAAS, holy fuckshit, we call our baby DAAS.
+[IAAS](https://en.wikipedia.org/wiki/Cloud_computing#Infrastructure_as_a_service_.28IaaS.29), 
+[SAAS](https://en.wikipedia.org/wiki/Cloud_computing#Software_as_a_service_.28SaaS.29),
+[PAAS](https://en.wikipedia.org/wiki/Cloud_computing#Platform_as_a_service_.28PaaS.29), holy fuckshit, we call our baby DAAS.
 
 Dont get rid of your data yourself anymore. Use our distributed service 
 located in over 380 countries! No matter if you're using it private or for your business.

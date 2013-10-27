@@ -22,16 +22,16 @@ wikipedia.
 
 * Erase all of your data savly from everywhere in the world!
 * We support BigData!
+* 95,66% guaranteed uptime (we need some sleep, too)
 * Run huge Map-Reduce jobs on the data you wont see anymore!
 * Share your lost content and your feelings about it on Twitter & Facebook!
 
 # Privacy 
 
-We know that everyone cares about thier data these days. We promise 
-we wont let anyone have a look at your data[1].
+We know that everyone cares about thier privacy these days. We promise 
+we won't let anyone have a look at your data[1].
 
-
-[1]: Anyone excluding the following companies and departments. Just the 
+[1] Anyone excluding the following companies and departments. Just the 
 good guys, you know?: NSA, Nestle, Communist Party of China (CPC), 
 The Coca-Cola Company, the KGB, some of your coworkers and our friends (especially 
 if there is something funny).
