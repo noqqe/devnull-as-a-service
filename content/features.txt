@@ -9,7 +9,7 @@ tags: [/dev/null, trash, enterprise, business, Features]
 
 # Whats up? 
 
-So we heard you're a sales guy without any technical knowledge? Lets quote 
+So, we heard you're a sales guy without any technical knowledge? Lets quote 
 wikipedia.
 
 > In Unix-like operating systems, /dev/null or the null device is a special file

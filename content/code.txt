@@ -1,6 +1,6 @@
 ---
 title: Code
-date: 13.03.2012, 23:42
+date: 13.03.2013, 23:42
 type: page
 tags: [/dev/null, trash, enterprise, business]
 ---
@@ -8,7 +8,7 @@ tags: [/dev/null, trash, enterprise, business]
 # /dev/null as a Service
 
 Your developers will love our simple and well documented API. 
-Just post your data in there we will take care about its deletion over
+Just do a HTTP POST Request to our shiny REST-API and we will take care about its deletion over
 our Heavily Distributed BigData Cloud Cluster Setup!
 
     $ curl -d @invoice.pdf -X POST http://devnull-as-a-service.com/dev/null 
@@ -23,8 +23,9 @@ If you're a `wget` Windows multiplatform lover you could use
 
 # Self Hosted Enterprise Appliance!
 
-For only $5000 per year you get our enterprise self hosted enterprise appliance.
-Okay lets be honest, it's basicly a crappy Pentium4 Box with Debian and nginx installed. 
+For only $5000 per year you get your self hosted enterprise appliance.
+Okay lets be honest, it's basicly a crappy Pentium 4 Box with [Debian](http://debian.org) 
+and [nginx](http://nginx.org) installed. 
 
 The configuration looks pretty much like
 

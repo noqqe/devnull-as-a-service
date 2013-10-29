@@ -49,3 +49,8 @@ VIEWS = {
 THEME = 'theme'
 ENGINE = 'acrylamid.templates.jinja2.Environment'
 DATE_FORMAT = '%d.%m.%Y, %H:%M'
+DEPLOYMENT = {
+    "ls": "ls output/",
+    "echo": "echo output/",
+    "default": "rsync -av --delete output/ noqqe@o0.n0q.org:/home/noqqe/acry/"
+}
