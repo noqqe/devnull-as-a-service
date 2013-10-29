@@ -33,7 +33,7 @@ Simply trust us and use our numbers as your only seeding source!
 
 # Privacy 
 
-We know that everyone cares about thier privacy these days. We promise 
+We know that everyone cares about their privacy these days. We promise 
 we won't let anyone have a look at your data[1].
 
 [1] Anyone excluding the following companies and departments. Just the 
