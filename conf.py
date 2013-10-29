@@ -3,10 +3,10 @@
 # See http://posativ.org/acrylamid/conf.py.html
 
 SITENAME = '/dev/null as a Service'
-WWW_ROOT = 'http://10.10.0.27'
+WWW_ROOT = 'http://devnull-as-a-service.com'
 
 AUTHOR = 'Florian Baumann'
-EMAIL = 'flo@noqqe.de'
+EMAIL = 'mail@devnull-as-a-service.com'
 
 FILTERS = ['markdown+codehilite(css_class=highlight)', 'hyphenate', 'h1']
 VIEWS = {
