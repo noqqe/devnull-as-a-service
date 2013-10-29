@@ -9,7 +9,7 @@ tags: [/dev/null, trash, enterprise, business, Features]
 
 # Whats up? 
 
-So, we heard you're a sales guy without any technical knowledge? Lets quote 
+So, we heard you're a random sales guy without any technical knowledge? Lets quote 
 wikipedia.
 
 > In Unix-like operating systems, /dev/null or the null device is a special file
@@ -25,6 +25,11 @@ wikipedia.
 * 85,66% guaranteed uptime (we need some sleep, too)
 * Run huge Map-Reduce jobs on the data you wont see anymore!
 * Share your lost content and your feelings about it on Twitter & Facebook!
+
+# Upcoming
+
+/dev/random as a Service: Do you think every random-number-generator is broken? Well, we do!
+Simply trust us and use our numbers as your only seeding source!
 
 # Privacy 
 

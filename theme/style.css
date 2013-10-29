@@ -49,7 +49,7 @@ body > article > header h1 a {
 body > article > header h1 a:hover { text-shadow: #888888 0px 0px 1px }
 body > article > header h1 a:visited { color: black }
 body > article > header time {
-    font: 0.8em "Georgia";
+    font: 0.8em "Ropa Sans";
     float: right;
 }
 body > article h2 { font: bold 1.05em "Ropa Sans", sans-serif }
