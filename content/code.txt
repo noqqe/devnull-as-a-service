@@ -33,6 +33,9 @@ The configuration looks pretty much like
         if ($request_method = POST ) {
           return 200;
         }
+        if ($request_method = GET ) {
+          return 204;
+        }
     }
 
 But we think your data is worth it. 
