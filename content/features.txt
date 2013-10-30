@@ -33,10 +33,12 @@ Simply trust us and use our numbers as your only seeding source!
 
 # Privacy 
 
-We know that everyone cares about their privacy these days. We promise 
-we won't let anyone have a look at your data[1].
+We know that everyone cares about their privacy these days.
+We care about your privacy concerns, and guarantee all of your data will be completely discarded[1].
 
-[1] Anyone excluding the following companies and departments. Just the 
-good guys, you know?: NSA, Nestle, Communist Party of China (CPC), 
+
+[1] Except for cases where it will be stored indefinitely to ensure compliance with *government* regulations[2].
+
+[2] when we say 'government' we mean NSA, CIA, FBI, TSA, Communist Party of China (CPC), Nestle,
 The Coca-Cola Company, the KGB, some of your coworkers and our friends (especially 
 if there is something funny).
