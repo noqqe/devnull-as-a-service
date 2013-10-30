@@ -8,7 +8,7 @@ WWW_ROOT = 'http://devnull-as-a-service.com'
 AUTHOR = 'Florian Baumann'
 EMAIL = 'mail@devnull-as-a-service.com'
 
-FILTERS = ['markdown+codehilite(css_class=highlight)', 'hyphenate', 'h1']
+FILTERS = ['markdown+codehilite(css_class=highlight)', 'h1']
 VIEWS = {
     '/': {'filters': 'summarize', 'view': 'index',
           'pagination': '/page/:num/'},
