@@ -24,7 +24,7 @@ If you're a `wget` Windows multiplatform lover you could use
 # Self Hosted Enterprise Appliance!
 
 For only $5000 per year you get your self hosted enterprise appliance.
-Okay lets be honest, it's basicly a crappy Pentium 4 Box with [Debian](http://debian.org) 
+Okay lets be honest, it's basically a crappy Pentium 4 Box with [Debian](http://debian.org) 
 and [nginx](http://nginx.org) installed. 
 
 The configuration looks pretty much like
