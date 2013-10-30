@@ -34,7 +34,7 @@ The configuration looks pretty much like
           return 200;
         }
         if ($request_method = GET ) {
-          return 204;
+          return 404;
         }
     }
 
