@@ -16,6 +16,10 @@ blog: [noqqe.de](http://noqqe.de)
 [Github](https://github.com/noqqe/devnull-as-a-service)
 and do whatever you want. 
 
+# Careers
+
+[Come work with us!](/careers)
+
 # Copyright
 
 There are things we really care about. Copyright is one of them. 
