@@ -10,7 +10,7 @@ tags: [/dev/null, trash, enterprise, business, Features]
 # Whats up? 
 
 So, we heard you're a random sales guy without any technical knowledge? Let's quote 
-wikipedia.
+Wikipedia:
 
 > In Unix-like operating systems, /dev/null or the null device is a special file
 > that discards all data written to it but reports that the write operation 
