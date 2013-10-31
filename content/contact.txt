@@ -18,7 +18,7 @@ and do whatever you want.
 
 # Copyright
 
-There are things we really care about. Copyright is one of them. 
+There are things we really care about; copyright is one of them. 
 
 * [Acrylamid](http://github.com/posativ/acrylamid/) - Simplified BSD License
 * [Trashbin Logo](http://ipapun.deviantart.com/) - Creative Commons Attribution License
