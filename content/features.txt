@@ -9,7 +9,7 @@ tags: [/dev/null, trash, enterprise, business, Features]
 
 # Whats up? 
 
-So, we heard you're a random sales guy without any technical knowledge? Lets quote 
+So, we heard you're a random sales guy without any technical knowledge? Let's quote 
 wikipedia.
 
 > In Unix-like operating systems, /dev/null or the null device is a special file
@@ -20,7 +20,7 @@ wikipedia.
 
 # Our Features
 
-* Erase all of your data savly from everywhere in the world!
+* Erase all of your data safely from everywhere in the world!
 * We support BigData!
 * 85,66% guaranteed uptime (we need some sleep, too)
 * Run huge Map-Reduce jobs on the data you wont see anymore!
@@ -39,6 +39,6 @@ We care about your privacy concerns, and guarantee all of your data will be comp
 
 [1] Except for cases where it will be stored indefinitely to ensure compliance with *government* regulations[2].
 
-[2] when we say 'government' we mean NSA, CIA, FBI, TSA, Communist Party of China (CPC), Nestle,
+[2] When we say 'government' we mean NSA, CIA, FBI, TSA, Communist Party of China (CPC), Nestle,
 The Coca-Cola Company, the KGB, some of your coworkers and our friends (especially 
 if there is something funny).
