@@ -13,7 +13,7 @@ our Heavily Distributed BigData Cloud Cluster Setup!
 
     $ curl -d @invoice.pdf -X POST http://devnull-as-a-service.com/dev/null 
     
-If you are interested in some more informations about the ongoing deletion use:
+If you are interested in some more informations about the ongoing deletion, use:
 
     $ curl -v -d @photos-of-yourself.zip -X POST http://devnull-as-a-service.com/dev/null 
 
