@@ -8,26 +8,26 @@ tags: [/dev/null, trash, enterprise, business]
 # /dev/null as a Service
 
 Your developers will love our simple and well documented API. 
-Just do a HTTP POST Request to our shiny REST-API and we will take care about its deletion over
+Just do a HTTP POST request to our shiny REST-API, and we will take care of its deletion with
 our Heavily Distributed BigData Cloud Cluster Setup!
 
     $ curl -d @invoice.pdf -X POST http://devnull-as-a-service.com/dev/null 
     
-or if you are interested in some more informations about the ongoing deletion use
+If you are interested in some more informations about the ongoing deletion use:
 
     $ curl -v -d @photos-of-yourself.zip -X POST http://devnull-as-a-service.com/dev/null 
 
-If you're a `wget` Windows multiplatform lover you could use
+If you're a `wget` Windows multiplatform lover, you could use:
 
     $ wget -O- -v --post-file=backups.tar.gz http://devnull-as-a-service.com/dev/null
 
 # Self Hosted Enterprise Appliance!
 
-For only $5000 per year you get your self hosted enterprise appliance.
-Okay lets be honest, it's basically a crappy Pentium 4 Box with [Debian](http://debian.org) 
+For only $5,000 per year, you get your own, self-hosted enterprise appliance.
+Okay, let's be honest, it's basically a crappy Pentium 4 box with [Debian](http://debian.org) 
 and [nginx](http://nginx.org) installed. 
 
-The configuration looks pretty much like
+The configuration looks pretty much like:
 
     location /dev/null {
         if ($request_method = POST ) {
