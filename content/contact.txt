@@ -10,6 +10,8 @@ mail: mail@devnull-as-a-service.com
 
 blog: [noqqe.de](http://noqqe.de)
 
+twitter: [@noqqe](http://twitter.com/noqqe)
+
 # Contribute
 
 /dev/null as a Service is a community project. Simply fork it on 
