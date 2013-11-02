@@ -31,6 +31,8 @@ Wikipedia:
 /dev/random as a Service: Do you think every random-number-generator is broken? Well, we do!
 Simply trust us and use our numbers as your only seeding source!
 
+/dev/null for [your Android](https://github.com/artem-zinnatullin/dev-null-android)! 
+
 # Privacy 
 
 We know that everyone cares about their privacy these days.
