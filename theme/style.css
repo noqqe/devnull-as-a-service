@@ -408,6 +408,50 @@ object[type="application/x-shockwave-flash"], iframe.video {
     top:1px;
 }
 
+.nav6 {
+    -moz-box-shadow:inset 0px 1px 0px 0px #2C76A8;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #2C76A8;
+    box-shadow:inset 0px 1px 0px 0px #3498DB;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #2C76A8), color-stop(1, #2C76A8) );
+    background:-moz-linear-gradient( center top, #2C76A8 5%, #2C76A8 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3498DB', endColorstr='#3498DB');
+    background-color:#3498DB;
+    -webkit-border-top-left-radius:5px;
+    -moz-border-radius-topleft:5px;
+    border-top-left-radius:5px;
+    -webkit-border-top-right-radius:5px;
+    -moz-border-radius-topright:5px;
+    border-top-right-radius:5px;
+    -webkit-border-bottom-right-radius:5px;
+    -moz-border-radius-bottomright:5px;
+    border-bottom-right-radius:5px;
+    -webkit-border-bottom-left-radius:5px;
+    -moz-border-radius-bottomleft:5px;
+    border-bottom-left-radius:5px;
+    text-indent:0px;
+    display:inline-block;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    font-style:normal;
+    height:25px;
+    line-height:25px;
+    width:70px;
+    text-decoration:none;
+    text-align:center;
+    text-shadow:1px 1px 0px #2C76A8;
+}
+.nav6:hover {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #2C76A8), color-stop(1, #2C76A8) );
+    background:-moz-linear-gradient( center top, #2C76A8 5%, #2C76A8 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3498DB', endColorstr='#3498DB');
+    background-color:#2C76A8;
+}.nav6:active {
+    position:relative;
+    top:1px;
+}
+
 #hor-minimalist-b
 {
 	font-family: "Ropa Sans", Sans-Serif;
