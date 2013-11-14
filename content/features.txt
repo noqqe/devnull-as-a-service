@@ -7,7 +7,7 @@ tags: [/dev/null, trash, enterprise, business, Features]
 ---
 
 
-# Whats up? 
+# What's up? 
 
 So, we heard you're a random sales guy without any technical knowledge? Let's quote 
 Wikipedia:
@@ -23,7 +23,7 @@ Wikipedia:
 * Erase all of your data safely from everywhere in the world!
 * We support BigData!
 * 85,66% guaranteed uptime (we need some sleep, too)
-* Run huge Map-Reduce jobs on the data you wont see anymore!
+* Run huge Map-Reduce jobs on the data you won't see anymore!
 * Share your lost content and your feelings about it on Twitter & Facebook!
 
 # Upcoming
