@@ -2,7 +2,7 @@
 title: Code
 date: 13.03.2013, 23:42
 type: page
-tags: [/dev/null, trash, enterprise, business]
+tags: [/dev/null, trash, enterprise, business, DaaS]
 ---
 
 # /dev/null as a Service

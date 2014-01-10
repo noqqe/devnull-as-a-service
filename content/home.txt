@@ -2,7 +2,7 @@
 title: Home
 date: 27.10.2013, 23:23
 type: page
-tags: [/dev/null, trash, enterprise, business, home, bigdata, deepdata, trash, mess]
+tags: [/dev/null, trash, enterprise, business, home, bigdata, deepdata, trash, mess, DaaS]
 ---
 
 In modern days everything is a service. You create

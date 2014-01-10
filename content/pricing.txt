@@ -2,7 +2,7 @@
 title: Pricing
 date: 27.10.2013, 13:37
 type: page
-tags: [/dev/null, trash, enterprise, business]
+tags: [/dev/null, trash, enterprise, business, DaaS]
 ---
 
 
