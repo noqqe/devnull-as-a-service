@@ -29,6 +29,6 @@ and do whatever you want.
 There are things we really care about; copyright is one of them. 
 
 * [Acrylamid](http://github.com/posativ/acrylamid/) - Simplified BSD License
-* [Trashbin Logo](http://ipapun.deviantart.com/) - Creative Commons Attribution License
+* [Trashbin Logo](http://findicons.com/icon/158568/trash_recyclebin_empty_closed) - Creative Commons Attribution License (by)
 * [Pricing Table CSS](http://coding.smashingmagazine.com/2008/08/13/top-10-css-table-designs/)
 
