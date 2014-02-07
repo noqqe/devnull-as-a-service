@@ -13,13 +13,28 @@ our Heavily Distributed BigData Cloud Cluster Setup!
 
     $ curl -d @invoice.pdf -X POST http://devnull-as-a-service.com/dev/null 
     
-If you are interested in some more informations about the ongoing deletion, use:
+If you're interested in some more informations about the ongoing deletion, use:
 
     $ curl -v -d @photos-of-yourself.zip -X POST http://devnull-as-a-service.com/dev/null 
 
 If you're a `wget` Windows multiplatform lover, you could use:
 
     $ wget -O- -v --post-file=backups.tar.gz http://devnull-as-a-service.com/dev/null
+
+You can even use the [Discard protocol](https://en.wikipedia.org/wiki/Discard_Protocol) invented in 1983 and specified 
+in [RFC 863](https://tools.ietf.org/html/rfc863).
+
+    $ cat ~/invoice.pdf | nc devnull-as-a-service.com 9 
+
+Legacy, baby! Telnet interactive typewriter mode:
+
+    $ telnet devnull-as-a-service.com 9
+    Escape character is '^]'.   
+    ohai 
+    kkthxbye
+    ^]
+    telnet> quit
+    Connection closed.
 
 # Self Hosted Enterprise Appliance!
 
