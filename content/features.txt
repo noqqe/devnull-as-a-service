@@ -33,6 +33,8 @@ Simply trust us and use our numbers as your only seeding source!
 
 /dev/null for [your Android](https://github.com/artem-zinnatullin/dev-null-android)! 
 
+[LD_PRELOAD wrapper library](https://gist.github.com/ryancdotorg/7241987) for your Linux Kernel!
+
 # Privacy 
 
 We know that everyone cares about their privacy these days.
