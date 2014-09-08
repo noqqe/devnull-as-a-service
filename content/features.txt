@@ -35,6 +35,8 @@ Simply trust us and use our numbers as your only seeding source!
 
 [LD_PRELOAD wrapper library](https://gist.github.com/ryancdotorg/7241987) for your Linux Kernel!
 
+/dev/null for Bitcoin - Nullify your Bitcoins and amaze your friends! The most secure Bitcoin endpoint yet!
+
 # Privacy 
 
 We know that everyone cares about their privacy these days.
