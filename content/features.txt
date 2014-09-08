@@ -37,6 +37,11 @@ Simply trust us and use our numbers as your only seeding source!
 
 /dev/null for Bitcoin - Nullify your Bitcoins and amaze your friends! The most secure Bitcoin endpoint yet!
 
+# Docker container
+
+Not only is everything becoming a service on the internet, it is becoming 'containerized.' That's why we're 
+proud to announce the availability of the [DaaS Docker Linux Container!](https://github.com/boardstretcher/docker-files/tree/master/devnull-1.0_debian)
+
 # Privacy 
 
 We know that everyone cares about their privacy these days.
