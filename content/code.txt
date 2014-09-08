@@ -36,7 +36,8 @@ Legacy, baby! Telnet interactive typewriter mode:
     telnet> quit
     Connection closed.
     
-# Does DaaS support python?
+# Does DaaS support python clients?
+
 Of course! If you prefer to lose files in Python, you could use this code snippet and modify it to lose the file of your choosing:
     import pycurl
     
