@@ -35,6 +35,18 @@ Legacy, baby! Telnet interactive typewriter mode:
     ^]
     telnet> quit
     Connection closed.
+    
+# Does DaaS support python clients?
+
+Of course! If you prefer to lose files in Python, you could use this code snippet and modify it to lose the file of your choosing:
+    import pycurl
+    
+    curl = pycurl.Curl()
+    curl.setopt(curl.POST, 1)
+    curl.setopt(curl.URL, "http://devnull-as-a-service.com/dev/null")
+    curl.setopt(curl.HTTPPOST, [("file", (curl.FORM_FILE, "/root/important_file.txt"))])
+    curl.perform()
+    curl.close()
 
 # Self Hosted Enterprise Appliance!
 
