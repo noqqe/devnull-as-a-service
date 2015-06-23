@@ -32,7 +32,11 @@
 <div class="sidebar">
   <div class="container">
     <div class="sidebar-about">
-      <h1><i class="fa fa-trash"></i> /dev/null as a Service<h1>
+      <center>
+      <font size="14px"><i class="fa fa-trash"></i></font><br>
+      <font size="5px"> /dev/null as a Service</font>
+      </center>
+      <br>
     </div>
 
     <ul class="sidebar-nav">
@@ -54,7 +58,7 @@
     <div class="sidebar-meta">
       <a href="https://github.com/noqqe/devnull-as-a-service"><i class="fa fa-github"></i></a>
       <a href="https://twitter.com/noqqe/"><i class="fa fa-twitter"></i></a>
-      <a href="http://flattr.com/thing/409307/noqqe-de"><i class="fa fa-heart"></i></a>
+      <a href="https://flattr.com/thing/2465552/devnull-as-a-service-com"><i class="fa fa-heart"></i></a>
       <a href="https://news.ycombinator.com/user?id=noqqe"><i class="fa fa-hacker-news"></i></a>
       <a href="javascript:m41l('mail');"><i class="fa fa-envelope"></i></a>
       <br/>
@@ -69,10 +73,10 @@
   <h1>Code</h1>
       
 
-<h1 id="dev-null-as-a-service:cb7f612e17aad7eb26c06709ef92a867">/dev/null as a Service</h1>
+<h3 id="dev-null-as-a-service:cb7f612e17aad7eb26c06709ef92a867">/dev/null as a Service</h3>
 
-<p>Your developers will love our simple and well documented API.
-Just do a HTTP POST request to our shiny REST-API, and we will take care of its deletion with
+<p>Your developers will love our simple and well documented API.  Just do a HTTP
+POST request to our shiny REST-API, and we will take care of its deletion with
 our Heavily Distributed BigData Cloud Cluster Setup!</p>
 
 <pre><code>$ curl -d @invoice.pdf -X POST http://devnull-as-a-service.com/dev/null
@@ -88,8 +92,8 @@ our Heavily Distributed BigData Cloud Cluster Setup!</p>
 <pre><code>$ wget -O- -v --post-file=backups.tar.gz http://devnull-as-a-service.com/dev/null
 </code></pre>
 
-<p>You can even use the <a href="https://en.wikipedia.org/wiki/Discard_Protocol">Discard protocol</a> invented in 1983 and specified
-in <a href="https://tools.ietf.org/html/rfc863">RFC 863</a>.</p>
+<p>You can even use the <a href="https://en.wikipedia.org/wiki/Discard_Protocol">Discard protocol</a> invented in 1983 and
+specified in <a href="https://tools.ietf.org/html/rfc863">RFC 863</a>.</p>
 
 <pre><code>$ cat ~/invoice.pdf | nc devnull-as-a-service.com 9
 </code></pre>
@@ -105,12 +109,12 @@ telnet&gt; quit
 Connection closed.
 </code></pre>
 
-<h1 id="does-daas-support-python-clients:cb7f612e17aad7eb26c06709ef92a867">Does DaaS support python clients?</h1>
+<h3 id="does-daas-support-python-clients:cb7f612e17aad7eb26c06709ef92a867">Does DaaS support python clients?</h3>
 
-<p>Of course! If you prefer to lose files in Python, you could use this code snippet and modify it to lose the file of your choosing:
-    import pycurl</p>
+<p>Of course! If you prefer to lose files in Python, you could use this code snippet and modify it to lose the file of your choosing:</p>
 
-<pre><code>curl = pycurl.Curl()
+<pre><code>import pycurl
+curl = pycurl.Curl()
 curl.setopt(curl.POST, 1)
 curl.setopt(curl.URL, &quot;http://devnull-as-a-service.com/dev/null&quot;)
 curl.setopt(curl.HTTPPOST, [(&quot;file&quot;, (curl.FORM_FILE, &quot;/root/important_file.txt&quot;))])
@@ -118,7 +122,7 @@ curl.perform()
 curl.close()
 </code></pre>
 
-<h1 id="self-hosted-enterprise-appliance:cb7f612e17aad7eb26c06709ef92a867">Self Hosted Enterprise Appliance!</h1>
+<h3 id="self-hosted-enterprise-appliance:cb7f612e17aad7eb26c06709ef92a867">Self Hosted Enterprise Appliance!</h3>
 
 <p>For only $5,000 per year, you get your own, self-hosted enterprise appliance.
 Okay, let&rsquo;s be honest, it&rsquo;s basically a crappy Pentium 4 box with <a href="http://debian.org">Debian</a>

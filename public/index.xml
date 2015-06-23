@@ -15,26 +15,33 @@
       <pubDate>Wed, 30 Oct 2013 22:27:00 +0200</pubDate>
       
       <guid>http://localhost:1313/careers/</guid>
-      <description>&lt;p&gt;#Come Work With Us!&lt;/p&gt;
+      <description>
 
-&lt;p&gt;We are cool, and we work on the coolest as-a-service offering ever offered. Apply to any position, for as long as you qualify.&lt;/p&gt;
+&lt;h3 id=&#34;come-work-with-us:6035441c68e33538441e623a4322ab2f&#34;&gt;Come Work With Us!&lt;/h3&gt;
 
-&lt;p&gt;#Map-Enlarge Engineer&lt;/p&gt;
+&lt;p&gt;We are cool, and we work on the coolest as-a-service offering ever offered.
+Apply to any position, for as long as you qualify.&lt;/p&gt;
 
-&lt;p&gt;As a map-enlarge engineer, you will be responsible for turning small and medium data into big data.&lt;/p&gt;
+&lt;h3 id=&#34;map-enlarge-engineer:6035441c68e33538441e623a4322ab2f&#34;&gt;Map-Enlarge Engineer&lt;/h3&gt;
+
+&lt;p&gt;As a map-enlarge engineer, you will be responsible for turning small and medium
+data into big data.&lt;/p&gt;
 
 &lt;p&gt;Qualifications and Experience:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Extensive experience solving analytical problems using quantitative approaches.&lt;/li&gt;
+&lt;li&gt;Extensive experience solving analytical problems using quantitative&lt;/li&gt;
+&lt;li&gt;approaches.&lt;/li&gt;
 &lt;li&gt;10 years experience with Hadoop.&lt;/li&gt;
 &lt;li&gt;Must be comfortable turning meaningful data into meaningless bits.&lt;/li&gt;
 &lt;li&gt;Big Plus: PostDoc in data sciences.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;#Pipe Redirection Specialist&lt;/p&gt;
+&lt;h3 id=&#34;pipe-redirection-specialist:6035441c68e33538441e623a4322ab2f&#34;&gt;Pipe Redirection Specialist&lt;/h3&gt;
 
-&lt;p&gt;Sometimes, even the best data clogs up all the pipes. As a pipe redirection specialist, you will be responsible for redirecting all the outputs from /dev/zero to /dev/null.&lt;/p&gt;
+&lt;p&gt;Sometimes, even the best data clogs up all the pipes. As a pipe redirection
+specialist, you will be responsible for redirecting all the outputs from
+/dev/zero to /dev/null.&lt;/p&gt;
 
 &lt;p&gt;Qualifications and Experience:&lt;/p&gt;
 
@@ -103,7 +110,7 @@ it&amp;rsquo;s all gone. So we started to make a business out of what we&amp;rsq
       <guid>http://localhost:1313/features/</guid>
       <description>
 
-&lt;h1 id=&#34;what-s-up:e1ec7fcfd5aa4d3ea3e990d9b707a3b4&#34;&gt;What&amp;rsquo;s up?&lt;/h1&gt;
+&lt;h3 id=&#34;what-s-up:e1ec7fcfd5aa4d3ea3e990d9b707a3b4&#34;&gt;What&amp;rsquo;s up?&lt;/h3&gt;
 
 &lt;p&gt;So, we heard you&amp;rsquo;re a random sales guy without any technical knowledge? Let&amp;rsquo;s quote
 Wikipedia:&lt;/p&gt;
@@ -115,7 +122,7 @@ succeeded. It provides no data to any process that reads from it, yielding
 EOF immediately.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h1 id=&#34;our-features:e1ec7fcfd5aa4d3ea3e990d9b707a3b4&#34;&gt;Our Features&lt;/h1&gt;
+&lt;h3 id=&#34;our-features:e1ec7fcfd5aa4d3ea3e990d9b707a3b4&#34;&gt;Our Features&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Erase all of your data safely from everywhere in the world!&lt;/li&gt;
@@ -125,23 +132,22 @@ EOF immediately.&lt;/p&gt;
 &lt;li&gt;Share your lost content and your feelings about it on Twitter &amp;amp; Facebook!&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;upcoming:e1ec7fcfd5aa4d3ea3e990d9b707a3b4&#34;&gt;Upcoming&lt;/h1&gt;
+&lt;h3 id=&#34;upcoming:e1ec7fcfd5aa4d3ea3e990d9b707a3b4&#34;&gt;Upcoming&lt;/h3&gt;
 
-&lt;p&gt;/dev/random as a Service: Do you think every random-number-generator is broken? Well, we do!
-Simply trust us and use our numbers as your only seeding source!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;/dev/random as a Service: Do you think every random-number-generator is broken? Well, we do!
+Simply trust us and use our numbers as your only seeding source!&lt;/li&gt;
+&lt;li&gt;/dev/null for &lt;a href=&#34;https://github.com/artem-zinnatullin/dev-null-android&#34;&gt;your Android&lt;/a&gt;!&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gist.github.com/ryancdotorg/7241987&#34;&gt;LD_PRELOAD wrapper library&lt;/a&gt; for your Linux Kernel!&lt;/li&gt;
+&lt;li&gt;/dev/null for Bitcoin - Nullify your Bitcoins and amaze your friends! The most secure Bitcoin endpoint yet!&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;/dev/null for &lt;a href=&#34;https://github.com/artem-zinnatullin/dev-null-android&#34;&gt;your Android&lt;/a&gt;!&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://gist.github.com/ryancdotorg/7241987&#34;&gt;LD_PRELOAD wrapper library&lt;/a&gt; for your Linux Kernel!&lt;/p&gt;
-
-&lt;p&gt;/dev/null for Bitcoin - Nullify your Bitcoins and amaze your friends! The most secure Bitcoin endpoint yet!&lt;/p&gt;
-
-&lt;h1 id=&#34;docker-container:e1ec7fcfd5aa4d3ea3e990d9b707a3b4&#34;&gt;Docker container&lt;/h1&gt;
+&lt;h3 id=&#34;docker-container:e1ec7fcfd5aa4d3ea3e990d9b707a3b4&#34;&gt;Docker container&lt;/h3&gt;
 
 &lt;p&gt;Not only is everything becoming a service on the internet, it is becoming &amp;lsquo;containerized.&amp;rsquo; That&amp;rsquo;s why we&amp;rsquo;re
 proud to announce the availability of the &lt;a href=&#34;https://github.com/boardstretcher/docker-files/tree/master/devnull-1.0_debian&#34;&gt;DaaS Docker Linux Container!&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;privacy:e1ec7fcfd5aa4d3ea3e990d9b707a3b4&#34;&gt;Privacy&lt;/h1&gt;
+&lt;h3 id=&#34;privacy:e1ec7fcfd5aa4d3ea3e990d9b707a3b4&#34;&gt;Privacy&lt;/h3&gt;
 
 &lt;p&gt;We know that everyone cares about their privacy these days.
 We care about your privacy concerns, and guarantee all of your data will be completely discarded[1].&lt;/p&gt;
@@ -218,17 +224,13 @@ if there is something funny).&lt;/p&gt;
 
 &lt;script id=&#39;fbvugrx&#39;&gt;(function(i){var f,s=document.getElementById(i);f=document.createElement(&#39;iframe&#39;);f.src=&#39;//api.flattr.com/button/view/?uid=noqqe&amp;title=devnull-as-a-service.com&amp;button=compact&amp;url=http%3A%2F%2Fdevnull-as-a-service.com&#39;;f.title=&#39;Flattr&#39;;f.height=20;f.width=110;f.style.borderWidth=0;s.parentNode.insertBefore(f,s);})(&#39;fbvugrx&#39;);&lt;/script&gt;
 
-&lt;h1 id=&#34;contribute:3c4864f00d23f7ea35511ec930ce1d9c&#34;&gt;Contribute&lt;/h1&gt;
+&lt;h3 id=&#34;contribute:3c4864f00d23f7ea35511ec930ce1d9c&#34;&gt;Contribute&lt;/h3&gt;
 
 &lt;p&gt;/dev/null as a Service is a community project. Simply fork it on
 &lt;a href=&#34;https://github.com/noqqe/devnull-as-a-service&#34;&gt;Github&lt;/a&gt;
 and do whatever you want.&lt;/p&gt;
 
-&lt;h1 id=&#34;careers:3c4864f00d23f7ea35511ec930ce1d9c&#34;&gt;Careers&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://localhost:1313/careers&#34;&gt;Come work with us!&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;copyright:3c4864f00d23f7ea35511ec930ce1d9c&#34;&gt;Copyright&lt;/h1&gt;
+&lt;h3 id=&#34;copyright:3c4864f00d23f7ea35511ec930ce1d9c&#34;&gt;Copyright&lt;/h3&gt;
 
 &lt;p&gt;There are things we really care about; copyright is one of them.&lt;/p&gt;
 
@@ -248,10 +250,10 @@ and do whatever you want.&lt;/p&gt;
       <guid>http://localhost:1313/code/</guid>
       <description>
 
-&lt;h1 id=&#34;dev-null-as-a-service:cb7f612e17aad7eb26c06709ef92a867&#34;&gt;/dev/null as a Service&lt;/h1&gt;
+&lt;h3 id=&#34;dev-null-as-a-service:cb7f612e17aad7eb26c06709ef92a867&#34;&gt;/dev/null as a Service&lt;/h3&gt;
 
-&lt;p&gt;Your developers will love our simple and well documented API.
-Just do a HTTP POST request to our shiny REST-API, and we will take care of its deletion with
+&lt;p&gt;Your developers will love our simple and well documented API.  Just do a HTTP
+POST request to our shiny REST-API, and we will take care of its deletion with
 our Heavily Distributed BigData Cloud Cluster Setup!&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;$ curl -d @invoice.pdf -X POST http://devnull-as-a-service.com/dev/null
@@ -267,8 +269,8 @@ our Heavily Distributed BigData Cloud Cluster Setup!&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;$ wget -O- -v --post-file=backups.tar.gz http://devnull-as-a-service.com/dev/null
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;You can even use the &lt;a href=&#34;https://en.wikipedia.org/wiki/Discard_Protocol&#34;&gt;Discard protocol&lt;/a&gt; invented in 1983 and specified
-in &lt;a href=&#34;https://tools.ietf.org/html/rfc863&#34;&gt;RFC 863&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can even use the &lt;a href=&#34;https://en.wikipedia.org/wiki/Discard_Protocol&#34;&gt;Discard protocol&lt;/a&gt; invented in 1983 and
+specified in &lt;a href=&#34;https://tools.ietf.org/html/rfc863&#34;&gt;RFC 863&lt;/a&gt;.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;$ cat ~/invoice.pdf | nc devnull-as-a-service.com 9
 &lt;/code&gt;&lt;/pre&gt;
@@ -284,12 +286,12 @@ telnet&amp;gt; quit
 Connection closed.
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;does-daas-support-python-clients:cb7f612e17aad7eb26c06709ef92a867&#34;&gt;Does DaaS support python clients?&lt;/h1&gt;
+&lt;h3 id=&#34;does-daas-support-python-clients:cb7f612e17aad7eb26c06709ef92a867&#34;&gt;Does DaaS support python clients?&lt;/h3&gt;
 
-&lt;p&gt;Of course! If you prefer to lose files in Python, you could use this code snippet and modify it to lose the file of your choosing:
-    import pycurl&lt;/p&gt;
+&lt;p&gt;Of course! If you prefer to lose files in Python, you could use this code snippet and modify it to lose the file of your choosing:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;curl = pycurl.Curl()
+&lt;pre&gt;&lt;code&gt;import pycurl
+curl = pycurl.Curl()
 curl.setopt(curl.POST, 1)
 curl.setopt(curl.URL, &amp;quot;http://devnull-as-a-service.com/dev/null&amp;quot;)
 curl.setopt(curl.HTTPPOST, [(&amp;quot;file&amp;quot;, (curl.FORM_FILE, &amp;quot;/root/important_file.txt&amp;quot;))])
@@ -297,7 +299,7 @@ curl.perform()
 curl.close()
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;self-hosted-enterprise-appliance:cb7f612e17aad7eb26c06709ef92a867&#34;&gt;Self Hosted Enterprise Appliance!&lt;/h1&gt;
+&lt;h3 id=&#34;self-hosted-enterprise-appliance:cb7f612e17aad7eb26c06709ef92a867&#34;&gt;Self Hosted Enterprise Appliance!&lt;/h3&gt;
 
 &lt;p&gt;For only $5,000 per year, you get your own, self-hosted enterprise appliance.
 Okay, let&amp;rsquo;s be honest, it&amp;rsquo;s basically a crappy Pentium 4 box with &lt;a href=&#34;http://debian.org&#34;&gt;Debian&lt;/a&gt;

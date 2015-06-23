@@ -5,8 +5,7 @@ identifier: features
 type: page
 ---
 
-
-# What's up?
+### What's up?
 
 So, we heard you're a random sales guy without any technical knowledge? Let's quote
 Wikipedia:
@@ -17,7 +16,7 @@ Wikipedia:
 > EOF immediately.
 
 
-# Our Features
+### Our Features
 
 * Erase all of your data safely from everywhere in the world!
 * We support BigData!
@@ -25,23 +24,20 @@ Wikipedia:
 * Run huge Map-Reduce jobs on the data you won't see anymore!
 * Share your lost content and your feelings about it on Twitter & Facebook!
 
-# Upcoming
+### Upcoming
 
-/dev/random as a Service: Do you think every random-number-generator is broken? Well, we do!
-Simply trust us and use our numbers as your only seeding source!
+* /dev/random as a Service: Do you think every random-number-generator is broken? Well, we do!
+  Simply trust us and use our numbers as your only seeding source!
+* /dev/null for [your Android](https://github.com/artem-zinnatullin/dev-null-android)!
+* [LD_PRELOAD wrapper library](https://gist.github.com/ryancdotorg/7241987) for your Linux Kernel!
+* /dev/null for Bitcoin - Nullify your Bitcoins and amaze your friends! The most secure Bitcoin endpoint yet!
 
-/dev/null for [your Android](https://github.com/artem-zinnatullin/dev-null-android)!
-
-[LD_PRELOAD wrapper library](https://gist.github.com/ryancdotorg/7241987) for your Linux Kernel!
-
-/dev/null for Bitcoin - Nullify your Bitcoins and amaze your friends! The most secure Bitcoin endpoint yet!
-
-# Docker container
+### Docker container
 
 Not only is everything becoming a service on the internet, it is becoming 'containerized.' That's why we're
 proud to announce the availability of the [DaaS Docker Linux Container!](https://github.com/boardstretcher/docker-files/tree/master/devnull-1.0_debian)
 
-# Privacy
+### Privacy
 
 We know that everyone cares about their privacy these days.
 We care about your privacy concerns, and guarantee all of your data will be completely discarded[1].
