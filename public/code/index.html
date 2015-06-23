@@ -11,7 +11,6 @@
 
   
   <link rel="stylesheet" href="http://localhost:1313//css/poole.css">
-  <link rel="stylesheet" href="http://localhost:1313//css/syntax.css">
   <link rel="stylesheet" href="http://localhost:1313//css/hyde.css">
   <link rel="stylesheet" href="http://localhost:1313//fonts/fonts.css">
   <link rel="stylesheet" href="http://localhost:1313//fonts/font-awesome.min.css">
@@ -23,16 +22,8 @@
   
   <link href="" rel="alternate" type="application/rss+xml" title="/dev/null as a Service" />
 
-  
-  <link rel="stylesheet" href="http://localhost:1313//css/monokai_sublime.min.css">
-  <script src="http://localhost:1313//js/highlight.min.js"></script>
   <script src="http://localhost:1313//js/m41l.js"></script>
   <script>hljs.initHighlightingOnLoad();</script>
-
-  
-  <script data-isso-avatar-fg="#99cb62 #b6d073 #95d278 #329786 #419ac0 #69a0cd #7274d0"
-    data-isso="//comments.noqqe.de/"
-    src="//comments.noqqe.de/js/embed.min.js"></script>
 
 </head>
 
@@ -41,12 +32,10 @@
 <div class="sidebar">
   <div class="container">
     <div class="sidebar-about">
-      <h1><a href="/"><img src="/images/noqqe.png"></a><h1>
-          No advertising, no support, no bug fixes, payment inadvance.<br/> &mdash; AT&T Unix Policy (1984)
+      <h1><i class="fa fa-trash"></i> /dev/null as a Service<h1>
     </div>
 
     <ul class="sidebar-nav">
-      <li><a href="/">Home</a></li>
       
       <li><a href="/home/">Home</a></li>
       
@@ -63,13 +52,11 @@
     </ul>
 
     <div class="sidebar-meta">
-      <a href="https://github.com/noqqe/"><i class="fa fa-github"></i></a>
+      <a href="https://github.com/noqqe/devnull-as-a-service"><i class="fa fa-github"></i></a>
       <a href="https://twitter.com/noqqe/"><i class="fa fa-twitter"></i></a>
       <a href="http://flattr.com/thing/409307/noqqe-de"><i class="fa fa-heart"></i></a>
-      <a href="https://www.xing.com/profile/Florian_Baumann23"><i class="fa fa-xing"></i></a>
       <a href="https://news.ycombinator.com/user?id=noqqe"><i class="fa fa-hacker-news"></i></a>
-      <a href="/index.xml"><i class="fa fa-rss"></i></a>
-      <a href="javascript:m41l('flo');"><i class="fa fa-envelope"></i></a>
+      <a href="javascript:m41l('mail');"><i class="fa fa-envelope"></i></a>
       <br/>
       &copy; 2015 Florian Baumann.<br/>CC BY-NC-SA Some rights reserved.
     </div>
@@ -154,5 +141,8 @@ and <a href="http://nginx.org">nginx</a> installed.</p>
 </div>
 </div>
 
-  </body>
+  <script data-no-instant>document.write('<script src="http://'
+        + (location.host || 'localhost').split(':')[0]
+		+ ':1313/livereload.js?mindelay=10"></'
+        + 'script>')</script></body>
 </html>

@@ -124,18 +124,18 @@ code {
 /* Sidebar links */
 .sidebar a {
   color: #fff;
-  font-size: 18px;
+  font-size: 16px;
   text-decoration: none;
   font-weight: bold;
 }
 
 /* About section */
-.sidebar-about h1 {
-  color: rgba(255,255,255,.7);
+.sidebar-about h1 a i {
   margin-top: 0;
   font-family: "PT Sans", sans-serif;
-  font-size: 16px;
-  font-weight: normal;
+  font-size: 18px;
+  font-weight: bold;
+  color: #FFF;
 }
 
 
@@ -209,9 +209,9 @@ a.sidebar-nav-item:focus {
 
 /* Green */
 .theme-base-0b .sidebar {
-  background-color: #87d163;
+  background-color: #371848;
 }
 .theme-base-0b .content a,
 .theme-base-0b .related-posts li a:hover {
-  color: #87d163;
+  color: #371848;
 }

@@ -1,25 +1,21 @@
 <div class="sidebar">
   <div class="container">
     <div class="sidebar-about">
-      <h1><a href="/"><img src="/images/noqqe.png"></a><h1>
-          {{ .Site.Params.Description | safeHTML }}
+      <h1><i class="fa fa-trash"></i> {{ .Site.Title }}<h1>
     </div>
 
     <ul class="sidebar-nav">
-      <li><a href="/">Home</a></li>
       {{ range .Site.Menus.main }}
       <li><a href="{{.URL}}">{{ .Name }}</a></li>
       {{end}}
     </ul>
 
     <div class="sidebar-meta">
-      <a href="https://github.com/noqqe/"><i class="fa fa-github"></i></a>
+      <a href="https://github.com/noqqe/devnull-as-a-service"><i class="fa fa-github"></i></a>
       <a href="https://twitter.com/noqqe/"><i class="fa fa-twitter"></i></a>
       <a href="http://flattr.com/thing/409307/noqqe-de"><i class="fa fa-heart"></i></a>
-      <a href="https://www.xing.com/profile/Florian_Baumann23"><i class="fa fa-xing"></i></a>
       <a href="https://news.ycombinator.com/user?id=noqqe"><i class="fa fa-hacker-news"></i></a>
-      <a href="/index.xml"><i class="fa fa-rss"></i></a>
-      <a href="javascript:m41l('flo');"><i class="fa fa-envelope"></i></a>
+      <a href="javascript:m41l('mail');"><i class="fa fa-envelope"></i></a>
       <br/>
       {{ .Site.Params.Copyright|safeHTML }}
     </div>

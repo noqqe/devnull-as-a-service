@@ -70,7 +70,14 @@ plans for whole companies are available as well.&lt;/p&gt;
 
 &lt;h1 id=&#34;who-we-are:b9bcf8cb73ce4a081a635ad7c0acd9dd&#34;&gt;Who we are&lt;/h1&gt;
 
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;http://localhost:1313/img/shirt.png&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://localhost:1313/shirt.png&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+&lt;/p&gt;
 
 &lt;p&gt;We&amp;rsquo;re a young and dynamic team of messy data-scientists who have failed at being employed
 on the real market. Our experience in losing data and throwing files

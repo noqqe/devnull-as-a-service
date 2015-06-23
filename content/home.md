@@ -21,7 +21,7 @@ Just because, of course, everything should be a managed-service somewhere in the
 
 # Who we are
 
-<center><img src="/img/shirt.png" /></center>
+{{< figure src="/shirt.png" >}}
 
 We're a young and dynamic team of messy data-scientists who have failed at being employed
 on the real market. Our experience in losing data and throwing files
