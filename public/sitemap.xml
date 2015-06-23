@@ -13,23 +13,28 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/contact/</loc>
+    <loc>http://localhost:1313/home/</loc>
+    <lastmod>2013-10-27T23:23:00+02:00</lastmod>
   </url>
   
   <url>
     <loc>http://localhost:1313/features/</loc>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/code/</loc>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/home/</loc>
+    <lastmod>2013-10-27T13:37:00+02:00</lastmod>
   </url>
   
   <url>
     <loc>http://localhost:1313/pricing/</loc>
+    <lastmod>2013-10-27T13:37:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/contact/</loc>
+    <lastmod>2013-10-20T13:37:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/code/</loc>
+    <lastmod>2013-03-13T23:42:00+02:00</lastmod>
   </url>
   
 </urlset>

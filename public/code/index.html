@@ -88,12 +88,12 @@
 Just do a HTTP POST request to our shiny REST-API, and we will take care of its deletion with
 our Heavily Distributed BigData Cloud Cluster Setup!</p>
 
-<pre><code>$ curl -d @invoice.pdf -X POST http://devnull-as-a-service.com/dev/null 
+<pre><code>$ curl -d @invoice.pdf -X POST http://devnull-as-a-service.com/dev/null
 </code></pre>
 
 <p>If you&rsquo;re interested in some more informations about the ongoing deletion, use:</p>
 
-<pre><code>$ curl -v -d @photos-of-yourself.zip -X POST http://devnull-as-a-service.com/dev/null 
+<pre><code>$ curl -v -d @photos-of-yourself.zip -X POST http://devnull-as-a-service.com/dev/null
 </code></pre>
 
 <p>If you&rsquo;re a <code>wget</code> Windows multiplatform lover, you could use:</p>
@@ -104,14 +104,14 @@ our Heavily Distributed BigData Cloud Cluster Setup!</p>
 <p>You can even use the <a href="https://en.wikipedia.org/wiki/Discard_Protocol">Discard protocol</a> invented in 1983 and specified
 in <a href="https://tools.ietf.org/html/rfc863">RFC 863</a>.</p>
 
-<pre><code>$ cat ~/invoice.pdf | nc devnull-as-a-service.com 9 
+<pre><code>$ cat ~/invoice.pdf | nc devnull-as-a-service.com 9
 </code></pre>
 
 <p>Legacy, baby! Telnet interactive typewriter mode:</p>
 
 <pre><code>$ telnet devnull-as-a-service.com 9
-Escape character is '^]'.   
-ohai 
+Escape character is '^]'.
+ohai
 kkthxbye
 ^]
 telnet&gt; quit
