@@ -1,0 +1,64 @@
+@font-face {
+	font-family: 'PT Sans';
+	font-style: normal;
+	font-weight: 400;
+	src:
+		local('PT Sans'),
+		local('PTSans-Regular'),
+		/* from  */
+		url('PT_Sans_400.eot?#iefix') format('embedded-opentype'),
+		/* from http://fonts.gstatic.com/s/ptsans/v8/LKf8nhXsWg5ybwEGXk8UBQ.woff */
+		url('PT_Sans_400.woff') format('woff'),
+		/* from http://fonts.gstatic.com/s/ptsans/v8/FUDHvzEKSJww3kCxuiAo2A.ttf */
+		url('PT_Sans_400.ttf') format('truetype'),
+		/* from http://fonts.gstatic.com/l/font?kit=-W_xG__5QLePeHob2L7z1Q#PTSans */
+		url('PT_Sans_400.svg#PTSans') format('svg');
+}
+@font-face {
+	font-family: 'PT Sans';
+	font-style: normal;
+	font-weight: 700;
+	src:
+		local('PT Sans Bold'),
+		local('PTSans-Bold'),
+		/* from  */
+		url('PT_Sans_700.eot?#iefix') format('embedded-opentype'),
+		/* from http://fonts.gstatic.com/s/ptsans/v8/0XxGQsSc1g4rdRdjJKZrNBsxEYwM7FgeyaSgU71cLG0.woff */
+		url('PT_Sans_700.woff') format('woff'),
+		/* from http://fonts.gstatic.com/s/ptsans/v8/0XxGQsSc1g4rdRdjJKZrNC3USBnSvpkopQaUR-2r7iU.ttf */
+		url('PT_Sans_700.ttf') format('truetype'),
+		/* from http://fonts.gstatic.com/l/font?kit=0XxGQsSc1g4rdRdjJKZrNKWUboTb-jS2tyCOQMtm97g#PTSans */
+		url('PT_Sans_700.svg#PTSans') format('svg');
+}
+@font-face {
+	font-family: 'PT Sans';
+	font-style: italic;
+	font-weight: 400;
+	src:
+		local('PT Sans Italic'),
+		local('PTSans-Italic'),
+		/* from  */
+		url('PT_Sans_400italic.eot?#iefix') format('embedded-opentype'),
+		/* from http://fonts.gstatic.com/s/ptsans/v8/PIPMHY90P7jtyjpXuZ2cLD8E0i7KZn-EPnyo3HZu7kw.woff */
+		url('PT_Sans_400italic.woff') format('woff'),
+		/* from http://fonts.gstatic.com/s/ptsans/v8/PIPMHY90P7jtyjpXuZ2cLKCWcynf_cDxXwCLxiixG1c.ttf */
+		url('PT_Sans_400italic.ttf') format('truetype'),
+		/* from http://fonts.gstatic.com/l/font?kit=PIPMHY90P7jtyjpXuZ2cLJbd9NUM7myrQQz30yPaGQ4#PTSans */
+		url('PT_Sans_400italic.svg#PTSans') format('svg');
+}
+@font-face {
+	font-family: 'PT Sans';
+	font-style: italic;
+	font-weight: 700;
+	src:
+		local('PT Sans Bold Italic'),
+		local('PTSans-BoldItalic'),
+		/* from  */
+		url('PT_Sans_700italic.eot?#iefix') format('embedded-opentype'),
+		/* from http://fonts.gstatic.com/s/ptsans/v8/lILlYDvubYemzYzN7GbLkHhCUOGz7vYGh680lGh-uXM.woff */
+		url('PT_Sans_700italic.woff') format('woff'),
+		/* from http://fonts.gstatic.com/s/ptsans/v8/lILlYDvubYemzYzN7GbLkInF5uFdDttMLvmWuJdhhgs.ttf */
+		url('PT_Sans_700italic.ttf') format('truetype'),
+		/* from http://fonts.gstatic.com/l/font?kit=lILlYDvubYemzYzN7GbLkFlIn5tFQcqMuf-jhyJP0ps#PTSans */
+		url('PT_Sans_700italic.svg#PTSans') format('svg');
+}

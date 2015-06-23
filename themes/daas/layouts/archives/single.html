@@ -1,0 +1,23 @@
+{{ partial "head.html" . }}
+<body class="theme-base-0b">
+
+{{ partial "sidebar.html" . }}
+
+  <div class="content container">
+  <div class="post">
+  <h1>{{ .Title }}</h1>
+      {{ range (where .Site.Pages "Type" "post").GroupByDate "2006"  }}
+        <h2>{{ .Key }}</h2>
+        <ul>
+          {{ range .Pages }}
+          <li>
+              <span>{{ .Date.Format "02.01" }}</span>
+              <a href="{{ .Permalink }}">{{ .Title }}</a>
+          </li>
+            {{ end }}
+        </ul>
+      {{ end }}
+  </div>
+  </div>
+</body>
+</html>

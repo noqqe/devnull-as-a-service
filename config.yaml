@@ -1,0 +1,47 @@
+title: "/dev/null as a Service"
+baseurl:  "https://devnull-as-a-service.com"
+languageCode: "en-en"
+theme: "daas"
+path: "/"
+publishdir: "public"
+metaDataFormat: "yaml"
+
+params:
+  Description: "No advertising, no support, no bug fixes, payment inadvance.<br/> &mdash; AT&T Unix Policy (1984)"
+  Copyright: "&copy; 2015 Florian Baumann.<br/>CC BY-NC-SA Some rights reserved."
+  Author: "Florian Baumann"
+  githubuser: "noqqe"
+
+taxonomies:
+  category: "categories"
+  tag: "tags"
+
+permalinks:
+  post: "blog/:year/:month/:day/:filename/"
+
+menu:
+  main:
+  - name: "Home"
+    weight: 50
+    identifier: "Home"
+    url: "/Home/"
+  - name: "Features"
+    weight: 70
+    identifier: "Features"
+    url: "/features/"
+  - name: "Pricing"
+    weight: 90
+    identifier: "Pricing"
+    url: "/pricing/"
+  - name: "Code"
+    weight: 110
+    identifier: "Code"
+    url: "/code/"
+  - name: "Careers"
+    weight: 110
+    identifier: "Careers"
+    url: "/careers/"
+  - name: "Contact"
+    weight: 120
+    identifier: "Contact"
+    url: "/contact/"

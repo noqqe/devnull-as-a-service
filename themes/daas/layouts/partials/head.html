@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title> {{ .Title }} - {{ .Site.Title }} </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/poole.css">
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/syntax.css">
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/hyde.css">
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}/fonts/fonts.css">
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}/fonts/font-awesome.min.css">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/images/favicon.png">
+
+  <!-- RSS -->
+  <link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+
+  <!-- Syntax Highlightning -->
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/monokai_sublime.min.css">
+  <script src="{{ .Site.BaseURL }}/js/highlight.min.js"></script>
+  <script src="{{ .Site.BaseURL }}/js/m41l.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
+  <!-- Comments -->
+  <script data-isso-avatar-fg="#99cb62 #b6d073 #95d278 #329786 #419ac0 #69a0cd #7274d0"
+    data-isso="//comments.noqqe.de/"
+    src="//comments.noqqe.de/js/embed.min.js"></script>
+
+</head>

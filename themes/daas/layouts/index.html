@@ -1,0 +1,28 @@
+{{ partial "head.html" . }}
+
+<body class="theme-base-0b">
+
+{{ partial "sidebar.html" . }}
+
+  <div class="content container">
+    <div class="posts">
+
+      {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
+      {{ range $paginator.Pages }}
+
+      <div class="post">
+        <h1 class="post-title">
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </h1>
+        <span class="post-date">{{ .Date.Format "2006-01-02" }}</span>
+        {{ .Content }}
+      </div>
+
+      {{ end }}
+
+    </div>
+    {{ partial "pagination.html" $paginator }}
+  </div>
+
+</body>
+</html>

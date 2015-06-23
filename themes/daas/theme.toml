@@ -1,0 +1,15 @@
+name = "Hyde"
+license = "MIT"
+description = "An elegant open source and mobile first theme"
+tags = ["blog", "company"]
+features = ["blog", ]
+
+[author]
+    name = "spf13"
+    homepage = "http://spf13.com"
+
+# If Porting existing theme
+[original]
+    author =  "mdo"
+    homepage = "http://andhyde.com"
+    repo = "http://www.github.com/mdo/hyde"

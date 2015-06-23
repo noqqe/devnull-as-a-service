@@ -1,0 +1,15 @@
+{{ partial "head.html" . }}
+<body class="theme-base-0b">
+
+{{ partial "sidebar.html" . }}
+
+    <div class="content container">
+<div class="post">
+  <h1>{{ .Title }}</h1>
+  <span class="post-date">{{ .Date.Format "2006-01-02" }}</span>
+      {{ .Content }}
+</div>
+</div>
+
+  </body>
+</html>

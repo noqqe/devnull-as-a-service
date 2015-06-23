@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title> Code - /dev/null as a Service </title>
+
+  
+  <link rel="stylesheet" href="http://localhost:1313//css/poole.css">
+  <link rel="stylesheet" href="http://localhost:1313//css/syntax.css">
+  <link rel="stylesheet" href="http://localhost:1313//css/hyde.css">
+  <link rel="stylesheet" href="http://localhost:1313//fonts/fonts.css">
+  <link rel="stylesheet" href="http://localhost:1313//fonts/font-awesome.min.css">
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/images/favicon.png">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="/dev/null as a Service" />
+
+  
+  <link rel="stylesheet" href="http://localhost:1313//css/monokai_sublime.min.css">
+  <script src="http://localhost:1313//js/highlight.min.js"></script>
+  <script src="http://localhost:1313//js/m41l.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
+  
+  <script data-isso-avatar-fg="#99cb62 #b6d073 #95d278 #329786 #419ac0 #69a0cd #7274d0"
+    data-isso="//comments.noqqe.de/"
+    src="//comments.noqqe.de/js/embed.min.js"></script>
+
+</head>
+
+<body class="theme-base-0b">
+
+<div class="sidebar">
+  <div class="container">
+    <div class="sidebar-about">
+      <h1><a href="/"><img src="/images/noqqe.png"></a><h1>
+          No advertising, no support, no bug fixes, payment inadvance.<br/> &mdash; AT&T Unix Policy (1984)
+    </div>
+
+    <ul class="sidebar-nav">
+      <li><a href="/">Home</a></li>
+      
+      <li><a href="/home/">Home</a></li>
+      
+      <li><a href="/features/">Features</a></li>
+      
+      <li><a href="/pricing/">Pricing</a></li>
+      
+      <li><a href="/careers/">Careers</a></li>
+      
+      <li><a href="/code/">Code</a></li>
+      
+      <li><a href="/contact/">Contact</a></li>
+      
+    </ul>
+
+    <div class="sidebar-meta">
+      <a href="https://github.com/noqqe/"><i class="fa fa-github"></i></a>
+      <a href="https://twitter.com/noqqe/"><i class="fa fa-twitter"></i></a>
+      <a href="http://flattr.com/thing/409307/noqqe-de"><i class="fa fa-heart"></i></a>
+      <a href="https://www.xing.com/profile/Florian_Baumann23"><i class="fa fa-xing"></i></a>
+      <a href="https://news.ycombinator.com/user?id=noqqe"><i class="fa fa-hacker-news"></i></a>
+      <a href="/index.xml"><i class="fa fa-rss"></i></a>
+      <a href="javascript:m41l('flo');"><i class="fa fa-envelope"></i></a>
+      <br/>
+      &copy; 2015 Florian Baumann.<br/>CC BY-NC-SA Some rights reserved.
+    </div>
+  </div>
+</div>
+
+
+    <div class="content container">
+<div class="post">
+  <h1>Code</h1>
+      
+
+<h1 id="dev-null-as-a-service:cb7f612e17aad7eb26c06709ef92a867">/dev/null as a Service</h1>
+
+<p>Your developers will love our simple and well documented API.
+Just do a HTTP POST request to our shiny REST-API, and we will take care of its deletion with
+our Heavily Distributed BigData Cloud Cluster Setup!</p>
+
+<pre><code>$ curl -d @invoice.pdf -X POST http://devnull-as-a-service.com/dev/null 
+</code></pre>
+
+<p>If you&rsquo;re interested in some more informations about the ongoing deletion, use:</p>
+
+<pre><code>$ curl -v -d @photos-of-yourself.zip -X POST http://devnull-as-a-service.com/dev/null 
+</code></pre>
+
+<p>If you&rsquo;re a <code>wget</code> Windows multiplatform lover, you could use:</p>
+
+<pre><code>$ wget -O- -v --post-file=backups.tar.gz http://devnull-as-a-service.com/dev/null
+</code></pre>
+
+<p>You can even use the <a href="https://en.wikipedia.org/wiki/Discard_Protocol">Discard protocol</a> invented in 1983 and specified
+in <a href="https://tools.ietf.org/html/rfc863">RFC 863</a>.</p>
+
+<pre><code>$ cat ~/invoice.pdf | nc devnull-as-a-service.com 9 
+</code></pre>
+
+<p>Legacy, baby! Telnet interactive typewriter mode:</p>
+
+<pre><code>$ telnet devnull-as-a-service.com 9
+Escape character is '^]'.   
+ohai 
+kkthxbye
+^]
+telnet&gt; quit
+Connection closed.
+</code></pre>
+
+<h1 id="does-daas-support-python-clients:cb7f612e17aad7eb26c06709ef92a867">Does DaaS support python clients?</h1>
+
+<p>Of course! If you prefer to lose files in Python, you could use this code snippet and modify it to lose the file of your choosing:
+    import pycurl</p>
+
+<pre><code>curl = pycurl.Curl()
+curl.setopt(curl.POST, 1)
+curl.setopt(curl.URL, &quot;http://devnull-as-a-service.com/dev/null&quot;)
+curl.setopt(curl.HTTPPOST, [(&quot;file&quot;, (curl.FORM_FILE, &quot;/root/important_file.txt&quot;))])
+curl.perform()
+curl.close()
+</code></pre>
+
+<h1 id="self-hosted-enterprise-appliance:cb7f612e17aad7eb26c06709ef92a867">Self Hosted Enterprise Appliance!</h1>
+
+<p>For only $5,000 per year, you get your own, self-hosted enterprise appliance.
+Okay, let&rsquo;s be honest, it&rsquo;s basically a crappy Pentium 4 box with <a href="http://debian.org">Debian</a>
+and <a href="http://nginx.org">nginx</a> installed.</p>
+
+<p>The configuration looks pretty much like:</p>
+
+<pre><code>location /dev/null {
+    if ($request_method = POST ) {
+      return 200;
+    }
+    if ($request_method = GET ) {
+      return 204;
+    }
+}
+</code></pre>
+
+<p>But we think your data is worth it.</p>
+
+</div>
+</div>
+
+  </body>
+</html>
