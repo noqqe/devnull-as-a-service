@@ -15,7 +15,6 @@ Wikipedia:
 > succeeded. It provides no data to any process that reads from it, yielding
 > EOF immediately.
 
-
 ### Our Features
 
 * Erase all of your data safely from everywhere in the world!
@@ -39,12 +38,13 @@ proud to announce the availability of the [DaaS Docker Linux Container!](https:/
 
 ### Privacy
 
-We know that everyone cares about their privacy these days.
-We care about your privacy concerns, and guarantee all of your data will be completely discarded[1].
+We know that everyone cares about their privacy these days.  We care about your
+privacy concerns, and guarantee all of your data will be completely
+discarded[1].
 
+[1] Except for cases where it will be stored indefinitely to ensure compliance
+with *government* regulations[2].
 
-[1] Except for cases where it will be stored indefinitely to ensure compliance with *government* regulations[2].
-
-[2] When we say 'government' we mean NSA, CIA, FBI, TSA, Communist Party of China (CPC), Nestle,
-The Coca-Cola Company, the KGB, some of your coworkers and our friends (especially
-if there is something funny).
+[2] When we say 'government' we mean NSA, CIA, FBI, TSA, Communist Party of
+China (CPC), Nestle, The Coca-Cola Company, the KGB, some of your coworkers and
+our friends (especially if there is something funny).

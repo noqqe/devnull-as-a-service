@@ -19,7 +19,7 @@ plans for whole companies are available as well.
 
 Just because, of course, everything should be a managed-service somewhere in the internet!
 
-# Who we are
+### Who we are
 
 {{< figure src="/shirt.png" >}}
 
@@ -29,7 +29,7 @@ away is more than amazing! Over the years, we have managed to get rid of so much
 at home and even at work. Pictures of our holidays, important invoices, login details...
 it's all gone. So we started to make a business out of what we're good at.
 
-# News
+### News
 
 * EPS files for making your own T-Shirt now available here: <a href="/img/devnulllogo_black.eps">Black</a>, <a href="/img/devnulllogo_white.eps">White</a>.
 * Now with [Discard protocol](https://en.wikipedia.org/wiki/Discard_Protocol) support! See [Code](/code) for details.

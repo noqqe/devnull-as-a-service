@@ -1,4 +1,4 @@
 function m41l( s ) {
-    m41l = "mailto:" + s + "@" + "noqqe.de";
+    m41l = "mailto:" + s + "@" + "devnull-as-a-service.com";
       window.location = m41l;
 }

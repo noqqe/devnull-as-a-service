@@ -75,7 +75,7 @@ plans for whole companies are available as well.&lt;/p&gt;
 
 &lt;p&gt;Just because, of course, everything should be a managed-service somewhere in the internet!&lt;/p&gt;
 
-&lt;h1 id=&#34;who-we-are:b9bcf8cb73ce4a081a635ad7c0acd9dd&#34;&gt;Who we are&lt;/h1&gt;
+&lt;h3 id=&#34;who-we-are:b9bcf8cb73ce4a081a635ad7c0acd9dd&#34;&gt;Who we are&lt;/h3&gt;
 
 &lt;p&gt;
 &lt;figure &gt;
@@ -92,7 +92,7 @@ away is more than amazing! Over the years, we have managed to get rid of so much
 at home and even at work. Pictures of our holidays, important invoices, login details&amp;hellip;
 it&amp;rsquo;s all gone. So we started to make a business out of what we&amp;rsquo;re good at.&lt;/p&gt;
 
-&lt;h1 id=&#34;news:b9bcf8cb73ce4a081a635ad7c0acd9dd&#34;&gt;News&lt;/h1&gt;
+&lt;h3 id=&#34;news:b9bcf8cb73ce4a081a635ad7c0acd9dd&#34;&gt;News&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;EPS files for making your own T-Shirt now available here: &lt;a href=&#34;http://localhost:1313/img/devnulllogo_black.eps&#34;&gt;Black&lt;/a&gt;, &lt;a href=&#34;http://localhost:1313/img/devnulllogo_white.eps&#34;&gt;White&lt;/a&gt;.&lt;/li&gt;
@@ -149,14 +149,16 @@ proud to announce the availability of the &lt;a href=&#34;https://github.com/boa
 
 &lt;h3 id=&#34;privacy:e1ec7fcfd5aa4d3ea3e990d9b707a3b4&#34;&gt;Privacy&lt;/h3&gt;
 
-&lt;p&gt;We know that everyone cares about their privacy these days.
-We care about your privacy concerns, and guarantee all of your data will be completely discarded[1].&lt;/p&gt;
+&lt;p&gt;We know that everyone cares about their privacy these days.  We care about your
+privacy concerns, and guarantee all of your data will be completely
+discarded[1].&lt;/p&gt;
 
-&lt;p&gt;[1] Except for cases where it will be stored indefinitely to ensure compliance with &lt;em&gt;government&lt;/em&gt; regulations[2].&lt;/p&gt;
+&lt;p&gt;[1] Except for cases where it will be stored indefinitely to ensure compliance
+with &lt;em&gt;government&lt;/em&gt; regulations[2].&lt;/p&gt;
 
-&lt;p&gt;[2] When we say &amp;lsquo;government&amp;rsquo; we mean NSA, CIA, FBI, TSA, Communist Party of China (CPC), Nestle,
-The Coca-Cola Company, the KGB, some of your coworkers and our friends (especially
-if there is something funny).&lt;/p&gt;
+&lt;p&gt;[2] When we say &amp;lsquo;government&amp;rsquo; we mean NSA, CIA, FBI, TSA, Communist Party of
+China (CPC), Nestle, The Coca-Cola Company, the KGB, some of your coworkers and
+our friends (especially if there is something funny).&lt;/p&gt;
 </description>
     </item>
     
@@ -216,11 +218,11 @@ if there is something funny).&lt;/p&gt;
 
 &lt;p&gt;Florian Baumann&lt;/p&gt;
 
-&lt;p&gt;mail: mail@devnull-as-a-service.com&lt;/p&gt;
-
-&lt;p&gt;blog: &lt;a href=&#34;http://noqqe.de&#34;&gt;noqqe.de&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;twitter: &lt;a href=&#34;http://twitter.com/noqqe&#34;&gt;@noqqe&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;mail: mail@devnull-as-a-service.com&lt;/li&gt;
+&lt;li&gt;blog: &lt;a href=&#34;http://noqqe.de&#34;&gt;noqqe.de&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;twitter: &lt;a href=&#34;http://twitter.com/noqqe&#34;&gt;@noqqe&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;script id=&#39;fbvugrx&#39;&gt;(function(i){var f,s=document.getElementById(i);f=document.createElement(&#39;iframe&#39;);f.src=&#39;//api.flattr.com/button/view/?uid=noqqe&amp;title=devnull-as-a-service.com&amp;button=compact&amp;url=http%3A%2F%2Fdevnull-as-a-service.com&#39;;f.title=&#39;Flattr&#39;;f.height=20;f.width=110;f.style.borderWidth=0;s.parentNode.insertBefore(f,s);})(&#39;fbvugrx&#39;);&lt;/script&gt;
 
@@ -277,7 +279,7 @@ specified in &lt;a href=&#34;https://tools.ietf.org/html/rfc863&#34;&gt;RFC 863&
 
 &lt;p&gt;Legacy, baby! Telnet interactive typewriter mode:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ telnet devnull-as-a-service.com 9
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ telnet devnull-as-a-service.com 9
 Escape character is &#39;^]&#39;.
 ohai
 kkthxbye
@@ -290,7 +292,7 @@ Connection closed.
 
 &lt;p&gt;Of course! If you prefer to lose files in Python, you could use this code snippet and modify it to lose the file of your choosing:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;import pycurl
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import pycurl
 curl = pycurl.Curl()
 curl.setopt(curl.POST, 1)
 curl.setopt(curl.URL, &amp;quot;http://devnull-as-a-service.com/dev/null&amp;quot;)
