@@ -31,6 +31,7 @@ it's all gone. So we started to make a business out of what we're good at.
 
 ### News
 
-* EPS files for making your own T-Shirt now available here: <a href="/img/devnulllogo_black.eps">Black</a>, <a href="/img/devnulllogo_white.eps">White</a>.
+* Switched Homepage from Acrylamid to Hugo
+* EPS files for making your own T-Shirt now available here: <a href="/devnulllogo_black.eps">Black</a>, <a href="/devnulllogo_white.eps">White</a>.
 * Now with [Discard protocol](https://en.wikipedia.org/wiki/Discard_Protocol) support! See [Code](/code) for details.
 * Corporate identity. We're now having some shirts!
