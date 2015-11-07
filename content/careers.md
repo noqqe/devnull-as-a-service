@@ -18,7 +18,7 @@ data into big data.
 Qualifications and Experience:
 
 * Extensive experience solving analytical problems using quantitative
-* approaches.
+  approaches.
 * 10 years experience with Hadoop.
 * Must be comfortable turning meaningful data into meaningless bits.
 * Big Plus: PostDoc in data sciences.
