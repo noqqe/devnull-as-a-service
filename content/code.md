@@ -69,3 +69,18 @@ The configuration looks pretty much like:
     }
 
 But we think your data is worth it.
+
+### One Less to Go
+
+Do you even open source? We do. And this is our gift for the open-source
+community.
+
+[Download me!](/one-less-to-go.sh)
+
+Run this script with sudo privileges to get rid of a random pesky little file
+from your computer.
+
+    $ sudo ./one-less-to-go.sh
+
+Then rinse and repeat. Plus: it doesn't tell you what it deleted. So
+mysterious.
