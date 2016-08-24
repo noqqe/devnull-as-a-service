@@ -60,12 +60,9 @@ and [nginx](http://nginx.org) installed.
 The configuration looks pretty much like:
 
     location /dev/null {
-        if ($request_method = POST ) {
-          return 200;
-        }
-        if ($request_method = GET ) {
-          return 204;
-        }
+      if ($request_method ~ ^(GET|POST|HEAD|PUT|DELETE|OPTIONS|PATCH|CONNECT)$) {
+        return 200;
+      }
     }
 
 But we think your data is worth it.
