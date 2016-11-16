@@ -1,10 +1,8 @@
 ---
-title: Code
-date: 2013-03-13T23:42:00+02:00
+title: Shop
+date: 2016-11-16T23:42:00+02:00
 type: page
 ---
-
-### Shop
 
 <div id="myShop"><a href="//shop.spreadshirt.de/devnull-as-a-service">devnull-as-a-service</a></div>
 
