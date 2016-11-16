@@ -45,3 +45,7 @@ menu:
     weight: 120
     identifier: "Contact"
     url: "/contact/"
+  - name: "Shop"
+    weight: 130
+    identifier: "Shop"
+    url: "/shop/"
