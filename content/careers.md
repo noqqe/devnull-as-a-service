@@ -32,6 +32,6 @@ specialist, you will be responsible for redirecting all the outputs from
 Qualifications and Experience:
 
 * Must like cats.
-* Must have experience with rm -rf /.
+* Must have experience with rm --no-preserve-root -rf /.
 
 
