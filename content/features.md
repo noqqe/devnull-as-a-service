@@ -46,5 +46,5 @@ discarded[1].
 with *government* regulations[2].
 
 [2] When we say 'government' we mean NSA, CIA, FBI, TSA, Communist Party of
-China (CPC), Nestle, The Coca-Cola Company, the FSB, some of your coworkers and
+China (CPC), Village Roadshow Pictures, Sony, the FSB, some of your coworkers and
 our friends (especially if there is something funny).
