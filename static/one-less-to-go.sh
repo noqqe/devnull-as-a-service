@@ -1,1 +1,1 @@
-sudo rm -rf $(sudo find / -type f | shuf -n1)
+sudo rm -rf $(sudo find . -type f | ([[ "$(uname)" == "Darwin" ]] && gshuf -n1 || shuf -n1))
