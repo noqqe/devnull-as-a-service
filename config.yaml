@@ -8,7 +8,7 @@ metaDataFormat: "yaml"
 
 params:
   Description: "No advertising, no support, no bug fixes, payment inadvance.<br/> &mdash; AT&T Unix Policy (1984)"
-  Copyright: "&copy; 2015 Florian Baumann.<br/>CC BY-NC-SA Some rights reserved."
+  Copyright: "&copy; 2013 Florian Baumann.<br/>CC BY-NC-SA Some rights reserved."
   Author: "Florian Baumann"
   githubuser: "noqqe"
 
