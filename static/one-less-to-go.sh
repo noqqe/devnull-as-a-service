@@ -1,1 +1,1 @@
-sudo rm -rf $(sudo find / -type f | shuf -n1)
+sudo rm -rf $(sudo find / -type f -print0 | shuf -n1 -z)
