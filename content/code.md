@@ -10,15 +10,15 @@ Your developers will love our simple and well documented API.  Just do a HTTP
 POST request to our shiny REST-API, and we will take care of its deletion with
 our Heavily Distributed BigData Cloud Cluster Setup!
 
-    $ curl -d @invoice.pdf -X POST http://devnull-as-a-service.com/dev/null
+    $ curl -d @invoice.pdf -X POST https://devnull-as-a-service.com/dev/null
 
 If you're interested in some more informations about the ongoing deletion, use:
 
-    $ curl -v -d @photos-of-yourself.zip -X POST http://devnull-as-a-service.com/dev/null
+    $ curl -v -d @photos-of-yourself.zip -X POST https://devnull-as-a-service.com/dev/null
 
 If you're a `wget` Windows multiplatform lover, you could use:
 
-    $ wget -O- -v --post-file=backups.tar.gz http://devnull-as-a-service.com/dev/null
+    $ wget -O- -v --post-file=backups.tar.gz https://devnull-as-a-service.com/dev/null
 
 You can even use the [Discard protocol](https://en.wikipedia.org/wiki/Discard_Protocol) invented in 1983 and
 specified in [RFC 863](https://tools.ietf.org/html/rfc863).
