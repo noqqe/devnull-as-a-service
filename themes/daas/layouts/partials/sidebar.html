@@ -22,7 +22,7 @@
       <a href="http://hnrankings.info/6637480/"><i class="fa fa-hacker-news"></i></a>
       <a href="javascript:m41l('mail');"><i class="fa fa-envelope"></i></a>
       <br/>
-      {{ .Site.Params.Copyright|safeHTML }}
+      &copy; {{ now.Format "2006" }} {{ .Site.Params.Copyright|safeHTML }}
     </div>
   </div>
 </div>
