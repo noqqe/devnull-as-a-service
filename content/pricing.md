@@ -4,8 +4,8 @@ date: 2013-10-27T13:37:00+02:00
 type: page
 ---
 
-
 Simply contact one of our sales guys to get in touch!
+
 <table id="hor-minimalist-b" summary="Employee Pay Sheet">
 <thead>
 <tr>
@@ -43,3 +43,14 @@ Simply contact one of our sales guys to get in touch!
 </tbody>
 </table>
 
+## Licensing
+
+Pick any. We license it this way then.
+
+* The old Facebook ReactJS non-compete license
+* University of Utah Public License
+* Apple Public Source License v1.x
+* AT&T Public License
+* The JSON License
+* The Occulus Rift License
+* TrueCrypt License 3.0
