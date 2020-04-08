@@ -36,9 +36,9 @@ Simply contact one of our sales guys to get in touch!
 </tr>
 <tr>
 <td>Enterprise</td>
-<td>UNLIMITED!</td>
+<td>More than 500GB/Month</td>
 <td>High Availability devnull Cluster</td>
-<td>$500</td>
+<td>Contact us for pricing</td>
 </tr>
 </tbody>
 </table>
