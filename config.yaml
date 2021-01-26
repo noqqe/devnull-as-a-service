@@ -19,6 +19,11 @@ taxonomies:
 permalinks:
   post: "blog/:year/:month/:day/:filename/"
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
 menu:
   main:
   - name: "Home"
