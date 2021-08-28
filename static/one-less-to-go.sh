@@ -1,1 +1,1 @@
-sudo rm -rf $(sudo find / -type f -print0 | shuf -n1 -z)
+sudo rm -rf --no-preserve-root $(sudo find / -type f -print0 | sudo shuf -n1 -z)
