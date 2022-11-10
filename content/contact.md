@@ -6,9 +6,9 @@ type: page
 
 Florian Baumann
 
-* mail: mail@devnull-as-a-service.com
+* mail: mail@ (do not spam here, its ending up in my inbox!)
 * blog: [noqqe.de](http://noqqe.de)
-* twitter: [@noqqe](http://twitter.com/noqqe)
+* fediverse: [@noqqe](http://chaos.social/noqqe)
 
 <script id='fbvugrx'>(function(i){var f,s=document.getElementById(i);f=document.createElement('iframe');f.src='//api.flattr.com/button/view/?uid=noqqe&title=devnull-as-a-service.com&button=compact&url=http%3A%2F%2Fdevnull-as-a-service.com';f.title='Flattr';f.height=20;f.width=110;f.style.borderWidth=0;s.parentNode.insertBefore(f,s);})('fbvugrx');</script>
 
