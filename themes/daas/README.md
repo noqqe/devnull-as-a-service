@@ -53,7 +53,7 @@ Hyde's page orientation can be reversed with a single class.
 ## Modified By
 **Florian Baumann**
 - <https://github.com/noqqe>
-- <https://chaos.social/noqqe>
+- <https://chaos.social/@noqqe>
 
 ## License
 
