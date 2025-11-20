@@ -7,8 +7,8 @@ type: page
 Florian Baumann
 
 * mail: mail@ (do not spam here, its ending up in my inbox!)
-* blog: [noqqe.de](http://noqqe.de)
-* fediverse: [@noqqe](http://chaos.social/@noqqe)
+* blog: [noqqe.de](https://noqqe.de)
+* fediverse: [@noqqe](http://tilde.zone/@noqqe)
 
 ### Contribute
 
