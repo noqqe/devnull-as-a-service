@@ -1,5 +1,5 @@
 title: "/dev/null as a Service"
-baseurl:  "https://devnull-as-a-service.com"
+baseURL:  "https://devnull-as-a-service.com"
 languageCode: "en-en"
 theme: "daas"
 path: "/"
