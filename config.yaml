@@ -17,7 +17,7 @@ taxonomies:
   tag: "tags"
 
 permalinks:
-  post: "blog/:year/:month/:day/:filename/"
+  post: "blog/:year/:month/:day/:contentbasename/"
 
 markup:
   goldmark:
