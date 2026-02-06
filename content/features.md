@@ -34,7 +34,7 @@ Wikipedia:
 ### Docker container
 
 Not only is everything becoming a service on the internet, it is becoming 'containerized.' That's why we're
-proud to announce the availability of the [DaaS Docker Linux Container!](https://github.com/boardstretcher/docker-files/tree/master/devnull-1.0_debian)
+proud to announce the availability of the [DaaS Docker Linux Container!](https://github.com/puiterwijk/docker-files/tree/master/devnull-1.0_debian)
 
 ### Privacy
 
